@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
-import AffiliateWrapper from '../../components/affiliateWrapper/AffiliateWrapper'
-import ProductList from '../../components/productList/ProductList'
-import products from '../../constants/products'
-import bannerImages from '../../constants/bannerImages'
-import Carousel from '../../components/carousel/Carousel'
+import AffiliateWrapper from '../../components/aliados/affiliateWrapper/AffiliateWrapper'
+import ProductList from '../../components/aliados/productList/ProductList'
+import products from '../../js/aliados/products'
+import bannerImages from '../../js/aliados/bannerImages'
+import Carousel from '../../components/aliados/carousel/Carousel'
 
 const Comida = () => {
   return (

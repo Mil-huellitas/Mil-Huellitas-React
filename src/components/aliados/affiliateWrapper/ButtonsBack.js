@@ -1,6 +1,6 @@
 import React from 'react'
 import LinkCustom from '../linkCustom/LinkCustom'
-import affiliateLinks from '../../constants/affiliateLinks'
+import affiliateLinks from '../../../js/aliados/affiliateLinks'
 
 function ButtonsBack() {
   return (

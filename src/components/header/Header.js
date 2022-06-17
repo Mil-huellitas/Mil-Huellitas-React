@@ -1,7 +1,7 @@
 import './Header.css'
 import logo from './img/logo.png'
-import LinkCustom from '../linkCustom/LinkCustom'
-import navbarLink from '../../constants/navbarLink'
+import LinkCustom from '../../components/aliados/linkCustom/LinkCustom'
+import navbarLink from '../../js/aliados/navbarLink'
 
 function Header() {
   return (

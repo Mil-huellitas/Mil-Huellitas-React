@@ -1,11 +1,11 @@
 import React from 'react'
 import Footer from '../../components/footer/Footer'
 import Header from '../../components/header/Header'
-import ProductList from '../../components/productList/ProductList'
-import AffiliateWrapper from '../../components/affiliateWrapper/AffiliateWrapper'
-import products from '../../constants/products'
-import Carousel from '../../components/carousel/Carousel'
-import bannerImages from '../../constants/bannerImages'
+import ProductList from '../../components/aliados/productList/ProductList'
+import AffiliateWrapper from '../../components/aliados/affiliateWrapper/AffiliateWrapper'
+import products from '../../js/aliados/products'
+import Carousel from '../../components/aliados/carousel/Carousel'
+import bannerImages from '../../js/aliados/bannerImages'
 
 const Cuidados = () => {
   return (

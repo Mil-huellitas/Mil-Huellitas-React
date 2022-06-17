@@ -1,3 +1,17 @@
+import image1 from '../../../assets/aliados/comedores.png'
+import image2 from '../../../assets/aliados/peluches.jpg'
+import image3 from '../../../assets/aliados/correa.jpg'
+import image4 from '../../../assets/aliados/gym.jpg'
+import image5 from '../../../assets/aliados/camagato.jpg'
+import image6 from '../../../assets/aliados/kits.jpg'
+import image7 from '../../../assets/aliados/pañoleta.jpg'
+import image8 from '../../../assets/aliados/transportador.jpg'
+import image9 from '../../../assets/aliados/retractil.jpg'
+import image10 from '../../../assets/aliados/arenero.jpg'
+import image11 from '../../../assets/aliados/arnes.jpg'
+import image12 from '../../../assets/aliados/placas.jpg'
+
+
 const accessories = {
   title: 'Accesorios',
   img: 'https://angeladiaz20.github.io/Mil-Huellitas/src/assets/img/aliados/accesorios.png',
@@ -5,61 +19,61 @@ const accessories = {
   data: [
     {
       name: 'Comedores',
-      image: '/images/products/accessories/comedores.png',
+      image: image1,
       path: '/#',
     },
     {
       name: 'Peluches',
-      image: '/images/products/accessories/peluches.jpg',
+      image: image2,
       path: '/#',
     },
     {
       name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      image: image3,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Gimnasios',
+      image: image4,
       path: '/#',
     },    {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Camas',
+      image: image5,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Kits',
+      image: image6,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Pañoletas',
+      image: image7,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Mochilas',
+      image: image8,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Retractiles',
+      image: image9,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Areneros',
+      image: image10,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Arneses',
+      image: image11,
       path: '/#',
     },
     {
-      name: 'Correas',
-      image: '/images/products/accessories/peluches.jpg',
+      name: 'Placas',
+      image: image12,
       path: '/#',
     },
   ],

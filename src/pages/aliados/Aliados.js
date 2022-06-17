@@ -2,13 +2,10 @@ import React from 'react'
 import '../../css/aliados/aliados.css'
 import Header from '../../components/header/Header'
 import Footer from '../../components/footer/Footer'
-import Huellita from '../../assets/img/aliados/huellita.png'
-import Carousel from '../../components/carousel/Carousel'
-import ProductTypeList from '../../components/productTypeList/ProductTypeList'
-import BrandList from '../../components/brandList/BrandList'
-import products from '../../constants/products'
-import brands from '../../constants/brands'
-import bannerImages from '../../constants/bannerImages'
+import Carousel from '../../components/aliados/carousel/Carousel'
+import ProductTypeList from '../../components/aliados/productTypeList/ProductTypeList'
+import products from '../../js/aliados/products'
+import bannerImages from '../../js/aliados/bannerImages'
 
 const Aliados = () => {
   return (
@@ -26,15 +23,7 @@ const Aliados = () => {
           <ProductTypeList products={products} />
         </section>
 
-        <section className="title-Allied-Brands">
-          <img src={Huellita} className="huellita" alt="huellita" />
-          <h1 className="marcas">Nuestras marcas</h1>
-          <img src={Huellita} className="huellita2" alt="huellita2" />
-        </section>
 
-        <section className="brands__container">
-          <BrandList brands={brands} />
-        </section>
       </main>
       <Footer></Footer>
     </>

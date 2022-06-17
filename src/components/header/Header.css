@@ -12,7 +12,7 @@ nav {
   background-image: url(./img/header-background.png);
   position: fixed;
   top: 0;
-  z-index: 1000000;
+  z-index: 100;
 }
 
 .nav_logo-text {
