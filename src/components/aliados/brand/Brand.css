@@ -1,0 +1,40 @@
+.brand {
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+
+  background-color: var(--blue-light);
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.brand__header--img {
+  width: 50%;
+
+  object-fit: contain;
+  justify-self: center;
+  align-self: center;
+}
+
+.brand__content {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.brand__content a {
+  justify-self: center;
+  font-size: 1rem;
+  height: 40px;
+}
+
+.brand__content--title {
+  font-weight: bold;
+  text-transform: uppercase;
+  align-self: center;
+}
+
+

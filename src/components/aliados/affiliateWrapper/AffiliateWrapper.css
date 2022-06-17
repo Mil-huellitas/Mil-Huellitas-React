@@ -1,0 +1,52 @@
+.titleSection {
+  margin-top: 10px;
+  font-size: 0.9em;
+  margin: 10px;
+  text-align: center;
+}
+.titleFood {
+  margin-top: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.titleSection p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+.buttonsBack {
+  border: 2px dashed var(--blue-medium-color);
+  border-left: none;
+  border-right: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.link {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 1.25rem;
+  background-color: #1e4364;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.link-select {
+  background-color: #86aee2;
+}
+
+.buttonsBack .accesorios:hover {
+  background-color: #d9ddbf67;
+  color: #ffffff;
+}
+
+.buttonsBack .link:hover {
+  background-color: #86aee2;
+  color: rgb(3, 3, 3);
+}
