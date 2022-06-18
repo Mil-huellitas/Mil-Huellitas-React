@@ -10,7 +10,7 @@ function FormularioLogin() {
             <body className='html-login'>
                 <div className="wrapper fadeInDown">
                     <div id="formContent">
-                        <h2 className="active underlineHover">Sign In </h2>
+                        <h2 className="active underlineHover h2-login">Sign In </h2>
 
                         <div className="fadeIn first">
                             <Link to="/home">
@@ -66,7 +66,7 @@ function FormularioLogin() {
                                     <label htmlFor='correo' />
                                     <input type="email"
                                         id="correo"
-                                        className="fadeIn second"
+                                        className="fadeIn second input-login"
                                         name="correo"
                                         placeholder="email"
                                         value={values.correo}
@@ -78,7 +78,7 @@ function FormularioLogin() {
                                     <label htmlFor='password' />
                                     <input type="password"
                                         id="password"
-                                        className="fadeIn third"
+                                        className="fadeIn third input-login"
                                         name="password"
                                         placeholder="password"
                                         value={values.password}
@@ -92,7 +92,7 @@ function FormularioLogin() {
                                     <input type="submit"
                                         id='submit'
                                         name='submit'
-                                        className="fadeIn fourth"
+                                        className="fadeIn fourth input-login"
                                         value="Log In"
                                         onBlur={handleBlur}
                                         onChange={handleChange}
@@ -104,7 +104,7 @@ function FormularioLogin() {
                         </Formik>
 
                         <div id="formFooter">
-                            <a className="underlineHover" href="#">Forgot Password?</a>
+                            <a className="underlineHover a-login" href="#">Forgot Password?</a>
                         </div>
 
                     </div>
