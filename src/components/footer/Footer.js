@@ -58,9 +58,9 @@ function Footer(){
             <div className="footer__social-media">
                 <p><strong>Síguenos en redes sociales</strong></p>
                 <div>
-                    <a href="#"><img src={iconInstagram} alt="Icono de Instagram"></img></a>
-                    <a href="#"><img src={iconFacebook} alt="Icono de Facebook"></img></a>
-                    <a href="#"><img src={iconYoutube} alt="Icono de Youtube"></img></a>
+                <a href="https://instagram.com/milhuellitas5?igshid=YmMyMTA2M2Y=" target='_blank' rel="noreferrer"><img src={iconInstagram} alt="Icono de Instagram"></img></a> 
+                <a href="https://www.facebook.com/profile.php?id=100079394081794" target='_blank' rel="noreferrer"><img src={iconFacebook} alt="Icono de Facebook"></img></a> 
+                <a href="https://youtube.com/channel/UCrf9Xj2T4oYp5MYyUfpPE3A" target='_blank' rel="noreferrer"><img src={iconYoutube} alt="Icono de Youtube"></img></a>
                 </div>
             </div>
     </footer>
