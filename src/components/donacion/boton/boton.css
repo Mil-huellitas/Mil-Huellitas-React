@@ -1,4 +1,4 @@
-.botonc{
+.botonco{
     height: 80px;
     z-index: 3;
     width: 40%;
@@ -6,14 +6,14 @@
     margin: 30px auto;
     text-align: center;
 }
-.btn-container{
+.btn--container{
     display: flex;
     align-items: center;
     z-index: 1;
     flex-direction: row-reverse;
 } 
 
-.huella_btn{
+.huella__btn{
     background-color: var(--blue-dark-color);
     border: 5px solid var(--blue-light);
     border-radius: 50%;
@@ -23,11 +23,11 @@
     margin-right:-30px;
     padding: 4px;
 }
-.la_a{
+.la__a{
     z-index: 2;
 }
 
-.btn_pago{
+.btn__pago{
     background-color: var(--blue-dark-color);
     border: 5px solid var(--blue-light);
     color: var(--white-color);
@@ -43,31 +43,31 @@
     padding-left: 20px;
 }
 
-.btn_pago_link{
+.btn__pago_link{
     color: var(--white-color);
     font-family: var(--aleo-font);
     text-decoration: none;
     cursor: pointer;
 }
 
-.btn-container:hover .btn_pago, .btn-container:hover .huella_btn{
+.btn--container:hover .btn__pago, .btn--container:hover .huella__btn{
     background-color: var(--blue-medium-color);
 }
 
-.plan{
+.plan-l{
     color: var(--blue-dark-color);
     text-decoration: none;
     font-family:'Open Sans';
     z-index:1;
 }
 
-.plan:hover{
+.plan-l:hover{
     text-decoration:underline;
     font-weight: bold;
 }
 
 @media screen and (min-width: 768px) {
-    .botonc{
+    .botonco{
         height: 80px;
         z-index: 3;
         width: 30%;
@@ -76,7 +76,7 @@
         text-align: center;
     }
 
-    .btn_pago{
+    .btn__pago{
         font-size: 20px;
     }
 }
