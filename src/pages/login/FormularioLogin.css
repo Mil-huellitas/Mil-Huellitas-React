@@ -17,22 +17,18 @@
 .html-login {
     background-color: #e2e4e5;
     height: 100vh;
-
-}
-
-body {
     font-family: "Poppins", sans-serif;
     height: 100vh;
 }
 
-a {
+.a-login{
     color: #ffffff;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
 }
 
-h2 {
+.h2-login {
     text-align: center;
     font-size: 16px;
     font-weight: 600;
@@ -90,7 +86,7 @@ h5{
 /* TABS */
 
 
-h2.active {
+.h2-login.active {
     color: var(--blue-dark-color);
     font-size: 20px;
 }
