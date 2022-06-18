@@ -27,7 +27,7 @@ body{
   overflow-x: hidden;
 }
 
-h1, h2{
+.adoption h1, .adoption h2{
   font-family: 'Aleo', serif;
   color: var(--blue-medium-color);
   text-align: center;
