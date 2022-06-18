@@ -1,0 +1,1181 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --blue-dark-color: #1B3C5A;
+    --blue-medium-color:#2970CA;
+    --blue-light:#D5E3FF;
+    --green-light-color:#C4EDB2;
+    --coral-color:#FAC0BD;
+    --dark-color:#191919;
+    --white-color:#FFFFFF;
+    --aleo-font: "Aleo", serif;
+    --poppins-font: "Poppins", sans-serif;
+    --Degrade-nav-menu-color: linear-gradient(180deg, rgba(7, 36, 62, 0.9) 32.33%, rgba(42, 95, 145, 0.9) 92.71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--poppins-font);
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(img/header-backgrond.png);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    margin-top: 100px;
+}
+
+
+body{
+    font-family: 'Poppins',sans-serif;
+    background-image: url(../../assets/img/aliados/fondo.png);
+    background-position: left;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+header{
+  grid-column: 1/5;
+  background-color: var(--blue-dark-color);
+  color: var(--white-color);
+}
+
+main{
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+
+.fondo{
+  grid-column: 1/5;
+  background-image: url(aliados/huellita3.svg);
+  background-size: cover;
+}
+
+.banner{
+  grid-column: 1/5;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.banner ul{
+  display: flex;
+  width: 400%;
+  padding: 0;
+  animation: slide 16s infinite alternate ease-in-out;
+}  
+
+.banner li{
+list-style: none;   
+width: 100%;
+
+}
+
+.banner img{
+  max-width: 100%;
+}
+
+@keyframes slide{
+  0% {margin-left: 0%;}
+  20% {margin-left: 0%;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  95% {margin-left: -300%;}
+}
+
+
+.titleAllies{
+
+  margin-top: 10px;
+  grid-column: 1/5;
+  font-size: 0.5em;
+  margin: 10px ;
+}
+
+.cardsProducts{  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 10px;
+  grid-column: 1/5;
+
+  margin: 10px;
+}
+
+.cardAccessories{
+  grid-column: 1/2;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cardFood{
+  grid-column: 3/4;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cardToys{
+  grid-column: 1/2;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+
+.cardCare{
+  grid-column: 3/4;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.card{
+  position: relative;
+  width: 140px;
+  height: 250px;
+  background: var(--blue-dark-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var();
+  clip-path: circle(15px at 80% 20%);
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover:before{
+  clip-path: circle(100px at 80% -20%);
+}
+
+.card .imgBx{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1000;
+  width: 100%;
+  height: 220px;
+  transition: 0.5s;
+}
+
+.card:hover .imgBx{
+  top: 0%;
+  transform: translateY(0%);
+    
+}
+
+
+.card .imgBx img{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  width: 170px;
+}
+
+.card .contentBx{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  transition: 1s;
+  z-index: 10;
+}
+
+.card:hover .contentBx{
+  height: 100px;
+}
+
+
+.card .contentBx h2{
+  position: relative;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #fff;
+  margin: 0;
+}
+
+.card .contentBx .size, .container-2 .card .contentBx .color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  transition: 0.5s;opacity: 0;
+  visibility: hidden;
+  padding-top: 0;
+  padding-bottom: 1;
+}
+
+.card:hover .contentBx .size{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+
+.card:hover .contentBx .color{
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0.6s;
+}
+
+.card .contentBx .size h3, .container-2 .card .contentBx .color h3{
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+
+
+
+.contentBx a{
+  display: inline-block;
+  padding: 1px;
+  background: var(--blue-medium-color);
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.3s;
+}
+
+
+.card:hover .contentBx a{
+  opacity: 1;
+  transform: translateY(0px);
+  transition-delay: 0.20s; 
+}
+
+.coupon{
+  grid-column: 1/5;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.coupon img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.title-Allied-Brands{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+}
+
+.title-Allied-Brands h1{
+  text-align: center;
+}
+
+.huellita{
+  grid-column: 1/2;
+  width: 30%;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.marcas {
+  grid-column: 2/4;
+}
+
+
+.huellita2{
+  grid-column: 4/5;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.alliedBrands{
+  grid-column: 1/5;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-image: url(aliados/huellita5.svg);
+
+  background-size:1200px;
+
+}
+
+
+.ar{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.prueba{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.button{
+  text-align: center;
+  grid-column: 1/5;
+  margin-top: 10px;
+}
+
+
+ .button a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+
+.button h4{
+  background-color: #1E4364;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.button h4:hover{
+  background: rgb(207, 214, 255);
+  color: black;
+}
+
+
+
+
+.ar2{
+  grid-column: 3/4;
+  margin: 10px;
+
+}
+
+
+.ar3{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+
+.ar4{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+.ar5{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar6{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+.ar7{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar8{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+
+
+
+.content a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  text-align: center;
+}
+
+.content p {
+  text-align: center;
+  color: #000000;
+  font-weight: 100;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.aliados:hover .face.face2{
+  transform: translateY(0);
+}
+
+.aliados .face.face2 {
+  position: relative;
+  background: rgba(141, 141, 252, 0.925);
+  padding: 2px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.521);
+  transform: translateY(-100px);
+}
+
+.icono {
+  width: 0%;
+}
+
+
+
+
+
+ .aliados .face {
+  width: 150px;
+  height: 150px;
+  transition: 0.5s;
+}
+
+ .aliados .face.face1 {
+  position: relative;
+  background: rgb(207, 214, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+ .aliados:hover .face.face1{
+  background: var(--blue-dark-color);
+  transform: translateY(0px);
+}
+
+.aliados .face.face1 .content {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.aliados:hover .face.face1 .content {
+  opacity: 1;
+}
+.aliados .face.face1 .content img{
+  max-width: 100%;
+}
+
+.footer{
+  grid-column: 1/5;
+}
+
+
+footer{
+  grid-column: 1/5;
+
+  background-color: var(--blue-dark-color);
+  padding: 10px;
+  color: var(--white-color);
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 60% auto;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:"info-footer loyal-text" 
+                      "info-footer social-media"
+}
+
+footer > .info-footer {
+  grid-area: info-footer;
+}
+
+footer > .loyal-text {
+  grid-area: loyal-text;
+}
+
+footer > .social-media {
+  grid-area: social-media;
+}
+
+
+.info-footer{
+  border-right: 1px solid var(--white-color);
+}
+
+.info-footer .info{
+  margin: 2px 0;
+}
+
+.info{
+  width: 100%;
+  display: flex;
+}
+
+.info img{
+  margin-right: 10px;
+  width: 24px;
+}
+
+.loyal-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.loyal-text p{
+  text-align: center;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 5px;
+  text-align: center;
+  border-top: 1px solid var(--white-color);
+  padding: 0 5px;
+}
+
+.social-media p{
+  text-align: center;
+}
+
+.social-media div{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-media img{
+  margin:0 5px
+}
+
+
+
+
+@media (min-width: 768px) {
+  .titleAllies{
+  grid-column: 1/5;
+  font-size: 0.9em;
+  margin-top: 30px;
+
+}
+
+.cardsProducts{  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin: 30px;
+  column-gap: 10px;
+
+}
+
+.cardAccessories{
+  grid-column: 1/2;
+  margin-right: 0px;
+}
+
+.cardFood{
+  grid-column: 2/3;
+  margin-right: 0px;
+}
+
+.cardToys{
+  grid-column: 3/4;
+  margin-right: 0px;
+}
+
+
+.cardCare{
+  grid-column: 4/5;
+  margin-right: 0px;
+
+}
+
+.coupon img{
+  max-width: 100%;
+}
+
+.coupon{
+  margin-top: 20px;
+}
+
+.title-Allied-Brands{
+  grid-column: 1/5;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title-Allied-Brands h1{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  margin-top: 40px;
+}
+
+.huellita{
+  grid-column: 1/2;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.marcas {
+  grid-column: 2/4;
+
+}
+
+
+.huellita2{
+  grid-column: 4/5;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.alliedBrands{
+  grid-column: 1/5;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+
+.ar{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar2{
+  grid-column: 2/3;
+  margin: 10px;
+}
+
+
+.ar3{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+
+.ar4{
+  grid-column: 4/5;
+  margin: 10px;
+}
+
+.ar5{
+  grid-column: 1/2;
+  margin: 10px;
+}
+
+.ar6{
+  grid-column: 2/3;
+  margin: 10px;
+}
+
+.ar7{
+  grid-column: 3/4;
+  margin: 10px;
+}
+
+.ar8{
+  grid-column: 4/5;
+  margin: 10px;
+}
+
+.card{
+  width: 160px;
+  height: 270px;
+}
+
+
+.card .contentBx h2{
+  letter-spacing: 0px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.contentBx a{
+  background-color: #4980b1;
+  font-size: 20px;
+}
+
+
+.card .contentBx{
+  bottom: 50px;
+  width: 90%;
+  height: 50px;
+}
+
+.card .imgBx img{
+  top: 10%;
+  left: 60%;
+  width: 198px;
+}
+
+.content h3{
+  margin-bottom: 10px;
+}
+
+
+.content p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.aliados .face {
+  width: 165px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.alliedBrands{
+  grid-column: 1/5;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-image: url(aliados/huellita5.svg);
+  background-position: center;
+  background-size:1500px;
+  background-repeat: no-repeat;
+}
+
+
+
+}
+
+@media (min-width: 1024px){
+
+  body{
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
+  .alliedBrands{
+  grid-column: 1/5;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-image: url(aliados/huellita5.svg);
+  background-position: center;
+  background-size:1500px;
+  background-repeat: no-repeat;
+}
+
+.button{
+  text-align: center;
+  grid-column: 1/4;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.aliados .face {
+  width: 250px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.content a{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.content p {
+  text-align: center;
+  color: #dbdbdb;
+  font-weight: 100;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card{
+  width: 240px;
+  height: 350px;
+  background: var(--blue-dark-color);
+  border-radius: 50px;
+  display: flex;
+  align-items: center
+}
+
+
+.card:hover{
+  background: #6eadd4;
+}
+
+
+.card .contentBx h2{
+  letter-spacing: 4px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+.contentBx a{
+  background-color: var(--blue-dark-color);
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.card .contentBx{
+  bottom: 50px;
+  width: 90%;
+  height: 50px;
+}
+
+.card .imgBx img{
+  top:20%;
+  left: 50%;
+  width: 230px;
+}
+
+.coupon{
+  grid-column: 1/5;
+  cursor: pointer;
+  margin-top: 50px;
+
+}
+
+.cardsProducts{  
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 100px;
+  grid-column: 1/5;
+  background-position: center;
+  background-size:1200px;
+  background-repeat: no-repeat;
+
+}
+
+.titleAllies{
+
+  margin-top: 80px;
+  grid-column: 1/5;
+  font-size: 1.1em;
+}
+
+
+.title-Allied-Brands h1{
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  margin-top: 70px;
+}
+
+
+
+/*Estilos heder*/
+.logo-text-heder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-nav {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.text-logo-heder {
+    font-family: var(--aleo-font);
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bar-btn {
+    font-size: 25px;
+    color: var(--white-color);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: var(--Degrade-nav-menu-color);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 3rem;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: var(--white-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active,
+.nav-menu li a:hover {
+    color: #09ff00;
+    transition: .3s;
+    text-shadow: 1px 1px 10px #09ff00;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.nav-menu {
+    height: 100vh;
+}
+
+#check:checked~.nav-menu li {
+    display: block;
+}
+
+
+/*responsive tablets*/
+@media screen and (min-width: 870px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+    #index-banner {
+        display: none;
+    }
+
+
+
+    /*responsive navbar*/
+    .logo-nav {
+        width: 35%;
+        margin-left: 20px;
+    }
+
+    .bar-btn {
+        margin-right: 20px;
+    }
+}
+
+/*responsive desktop*/
+
+@media screen and (min-width: 950px) {
+
+    /*responsive Pc navbar*/
+    nav {
+        height: 100px;
+        flex-direction: row;
+
+    }
+
+    .logo-nav {
+        margin-left: 50px;
+    }
+
+    .bar-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 1rem;
+        backdrop-filter: blur(0px);
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+
+    }
+
+    .nav-menu li a {
+        font-size: 1rem;
+    }
+}
+
+
+
+footer{
+    width: 100%;
+    background-color: var(--blue-dark-color);
+    padding: 10px;
+    color: var(--white-color);
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-template-rows: 50% 50%;
+    grid-template-areas:"info-footer loyal-text" 
+                        "info-footer social-media"
+}
+
+footer > .info-footer {
+    grid-area: info-footer;
+  }
+  
+footer > .loyal-text {
+    grid-area: loyal-text;
+  }
+  
+footer > .social-media {
+    grid-area: social-media;
+  }
+
+
+.info-footer{
+    border-right: 1px solid var(--white-color);
+}
+
+.info-footer .info{
+    margin: 2px 0;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+}
+
+.info img{
+    margin-right: 10px;
+    width: 24px;
+}
+
+.loyal-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.loyal-text p{
+    text-align: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    text-align: center;
+    border-top: 1px solid var(--white-color);
+    padding: 0 5px;
+}
+
+.social-media p{
+    text-align: center;
+}
+
+.social-media div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img{
+    margin:0 5px
+}
+
+
+
+@media screen and (min-width: 768px){
+   .info-footer{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+   }
+
+   .pte1{
+    border-right: 1px solid var(--white-color);
+   }
+
+   .info-pte{
+       padding: 0 10px;
+   }
+
+   .info img{
+    width: 27px;
+    }
+
+   .loyal-text{
+      height: 100%;
+   }
+
+   .social-media{
+       border-top: none;
+       border-left: 1px solid var(--white-color);
+   }
+
+   .social-media img{
+    width: 32px;
+    margin: 0 10px;
+    }
+
+   footer{
+       grid-template-rows: 100%;
+       grid-template-columns: 55% auto auto; 
+       grid-template-areas: "info-footer loyal-text social-media";
+   }
+}
+
+@media screen and (min-width: 1024px){
+    footer{
+        font-size: 14.5px;
+    }
+
+    .info-pte{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info img{
+        width: 30px;
+    }
+
+    .social-media img{
+        width: 40px;
+        margin: 0 15px;
+    
+    }
+}        
