@@ -1,6 +1,5 @@
 
 
-import Inicio from '../src/pages/blog/Inicio';
 
 
 import PerrosAdiest from '../src/components/blog/navegacion/Perros/Adiest';
@@ -86,7 +85,6 @@ root.render(
 
 
 
-        <Route path='/blog' element={<Inicio />} ></Route>
      
         <Route path='/aliado' element={<Aliado />}></Route>
 
