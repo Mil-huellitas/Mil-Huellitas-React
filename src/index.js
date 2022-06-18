@@ -86,7 +86,7 @@ root.render(
 
 
      
-        <Route path='/aliado' element={<Aliado />}></Route>
+        <Route path='/aliado' element={<Aliados />}></Route>
 
         <Route path='/perros/adiest' element={<PerrosAdiest />}></Route>
         <Route path='/perros/cuidados' element={<PerrosCuidados />}></Route>
