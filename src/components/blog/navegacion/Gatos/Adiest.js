@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../../../components/footer/footer.txt'
-import Header from '../../../../components/header/header.txt'
+import Footer from'../../../../components/footer/Footer'
+import Header from '../../../../components/header/Header'
 
 import '../../../../css/blog/adiest-g.css';
 import Gato5 from '../../../../assets/blog/img/blog/gato 5-PhotoRoom 1.png'
