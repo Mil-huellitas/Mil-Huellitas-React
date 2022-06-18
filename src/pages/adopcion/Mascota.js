@@ -82,7 +82,7 @@ function Mascota(){
 
                         <div className="slider-galery-pet">
 
-                            <div className="container">
+                            <div className="container_galery_pet">
                                 <input type="radio" name="slider" id="item-1" checked/>
                                 <input type="radio" name="slider" id="item-2"/>
                                 <input type="radio" name="slider" id="item-3"/>
