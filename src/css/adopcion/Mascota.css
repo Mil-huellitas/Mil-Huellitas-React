@@ -694,6 +694,7 @@
     .img-pet img{
         height: 100%;
         margin-bottom: 0;
+        border-radius: 10px;
     }
 
     .slider-galery-pet{

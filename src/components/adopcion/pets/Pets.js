@@ -57,7 +57,7 @@ function Pets(){
                         <div className="adoption-galery__image">
                             {pett.image}
                             <div className="adoption-galery__layer">
-                                <Link to={`${pett.id}`} className="link">¡Cónoce su historia!</Link>
+                                <a href={`${pett.id}`} className="link">  ¡Cónoce su historia! </a>
                             </div>
                         </div>
                         

@@ -1,6 +1,5 @@
-//import Header from '../../components/header/Header';
+import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-//<Header />
 
 
 import Pets from '../../components/adopcion/pets/Pets';
@@ -9,7 +8,8 @@ import Requirement from '../../components/adopcion/requirement/Requirement';
 
 function Adopcion(){
     return(
-        <div>          
+        <div>
+            <Header />          
             <Slides />
             <Pets />
             <Requirement />

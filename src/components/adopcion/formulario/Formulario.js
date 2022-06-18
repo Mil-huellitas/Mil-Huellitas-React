@@ -1,12 +1,10 @@
 /*import { Link } from 'react-router-dom';*/
 import './../../../css/adopcion/Formulario.css';
-import Boton from '../../../components/adopcion/buttons/Boton';
-import { Link } from 'react-router-dom';
 
 function Formulario() {
     
     return (
-        <div class="information">
+        <div className="information">
             <main id="main-adoption-form">
                 <section id="adoption-form">
 
@@ -204,7 +202,11 @@ function Formulario() {
                 <label for="observaciones"></label>
                 <textarea rows="5" cols="30" name="observaciones"></textarea></div>
 
-                <Link to="/form-adoptantes"><Boton /></Link>
+                <a href="/form-adoptantes" className="la_a">
+                <div className='btn-container'>
+                    <button className='btn_pago'> Enviar datos </button>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </div></a>
 
                 </section>
             </main>

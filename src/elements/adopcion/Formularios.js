@@ -10,7 +10,7 @@ const colores = {
 const ContainerForm = styled.section`
 	border: 3px solid var(--blue-light);
 	max-width: 1000px;
-	margin:auto;
+	margin:40px auto;
 	padding: 10px 30px;
 	background-color: white;
 `;

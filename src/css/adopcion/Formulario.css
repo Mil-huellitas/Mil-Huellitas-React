@@ -30,11 +30,20 @@
     border-left: none;
 }
 
+#adoption-form .btn-container, .bton-form-adoptantes .la_a{
+    width: 280px;
+    margin: auto;
+}
+
+#adoption-form .la_a, .bton-form-adoptantes .la_a{
+    text-decoration: none;
+}
+
 #adoption-form table thead tr{
     background-color:var(--white-color);
     border-left: none;
 }
-
+ 
 #adoption-form table td{
     padding: 5px 5px;
     text-align: center;
@@ -111,6 +120,10 @@ textarea{
 
 .modalPicture img{
     width: 150px;
+}
+
+.image-perrito{
+    margin: auto;
 }
 
 .modal{
