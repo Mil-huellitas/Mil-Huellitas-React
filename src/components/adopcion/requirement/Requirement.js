@@ -1,5 +1,6 @@
 import '../../../css/adopcion/Requirement.css';
 import Hero from '../../../assets/adopcion/img/hero-dog.svg';
+import React from 'react';
 
 function Requirement(){
  return(
