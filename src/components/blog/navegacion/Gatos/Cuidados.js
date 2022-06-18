@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../../../../components/footer/footer.txt'
-import Header from '../../../../components/header/header.txt'
+import Footer from '../../../../components/footer/Footer'
+import Header from '../../../../components/header/Header'
 import '../../../../css/blog/cuidados-g.css';
 import CuidadoGatuno from '../../../../assets/blog/img/blog/cuidado gato-PhotoRoom 1.png';
 import Garrapatas from '../../../../assets/blog/img/blog/gato 2-PhotoRoom 1.png'
