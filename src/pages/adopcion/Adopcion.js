@@ -1,6 +1,6 @@
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
-
+import React from 'react';
 
 import Pets from '../../components/adopcion/pets/Pets';
 import Slides from '../../components/adopcion/slide/Slide';
