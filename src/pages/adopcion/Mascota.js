@@ -104,7 +104,7 @@ function Mascota(){
                         </div></div>
 
                         <div className="cat-bton btn__pets">
-                            <Link to='/'>
+                            <Link to='/adopcion'>
                                 <button className="bton-cat"> 
                                 <img src={BtnDog} alt="Imagen de botón de gato"></img>
                                 Sigue mirando más peluditos
