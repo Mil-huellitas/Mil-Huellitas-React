@@ -7,9 +7,9 @@ function Info(){
     return (
         <main className="main_d">
             <section class="banner_Donacion">
-                <h3>Tu puedes ser</h3>
-                <h2> parte de la</h2>
-                <h1>solución</h1>
+                <h3 class="banner_Donacion_h3">Tu puedes ser</h3>
+                <h2 class="banner_Donacion_h2"> parte de la</h2>
+                <h1 class="banner_Donacion_h1">solución</h1>
             </section>
             <div class="title_information"><h2>CON TU AYUDA</h2></div>
             <section class="information">
