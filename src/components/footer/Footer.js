@@ -6,6 +6,7 @@ import iconFacebook from './img/facebook.svg'
 import iconInstagram from './img/instagram.svg'
 import iconYoutube from './img/youtube.svg'
 import iconGmail from './img/gmail.svg'
+import React from 'react';
 
 function Footer(){
  return(
