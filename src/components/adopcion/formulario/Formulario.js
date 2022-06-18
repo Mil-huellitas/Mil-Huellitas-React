@@ -5,7 +5,7 @@ import './../../../css/adopcion/Formulario.css';
 function Formulario() {
     
     return (
-        <div className="information">
+        <div className="information-formulary-pets">
             <main id="main-adoption-form">
                 <section id="adoption-form">
 
