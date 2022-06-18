@@ -21,19 +21,19 @@ function MainHome() {
             <h1>¿como nos puedes ayudar?</h1>
 
             <div className="index_buttons-pc">
-                <Link to="/donacion"><button id="index-btn-pc-D-material">
+                <Link to="/donacion"><button id="index-btn-pc-D-material" className='btn-home'>
                     <img src={BtnPcTrasparente} alt="" />
                     <h3>Donación <br /> Material</h3>
                 </button></Link>
-                <Link to="/donacion"><button id="index-btn-pc-D-economica">
+                <Link to="/donacion"><button id="index-btn-pc-D-economica" className='btn-home'>
                     <img src={BtnPcTrasparente} alt="" />
                     <h3>Donación <br /> economica</h3>
                 </button></Link>
-                <Link to="/donacion"><button id="index-btn-pc-Apadrinamiento">
+                <Link to="/donacion"><button id="index-btn-pc-Apadrinamiento" className='btn-home'>
                     <img src={BtnPcTrasparente} alt="" />
                     <h3>Apadrinamiento</h3>
                 </button></Link>
-                <Link to="/aliados"><button id="index-btn-pc-emprendimiento">
+                <Link to="/aliados"><button id="index-btn-pc-emprendimiento" className='btn-home'>
                     <img src={BtnPcTrasparente} alt="" />
                     <h3>Apoya un<br /> emprendimiento</h3>
                 </button></Link>
@@ -41,19 +41,19 @@ function MainHome() {
             </div>
 
             <div className="index_buttons">
-                <Link to="/donacion"><button id="index-btn-D-material">
+                <Link to="/donacion"><button id="index-btn-D-material" className='btn-home'>
                     <img src={BtnTrasparente} alt="" />
                     <h3>Donación <br /> Material</h3>
                 </button></Link>
-                <Link to="/donacion"><button id="index-btn-D-economica">
+                <Link to="/donacion"><button id="index-btn-D-economica" className='btn-home'>
                     <img src={BtnTrasparente} alt="" />
                     <h3>Donación <br /> economica</h3>
                 </button></Link>
-                <Link to="/donacion"><button id="index-btn-Apadrinamiento">
+                <Link to="/donacion"><button id="index-btn-Apadrinamiento" className='btn-home'>
                     <img src={BtnTrasparente} alt="" />
                     <h3>Apadrinamiento</h3>
                 </button></Link>
-                <Link to="/aliados"><button id="index-btn-emprendimiento">
+                <Link to="/aliados"><button id="index-btn-emprendimiento" className='btn-home'>
                     <img src={BtnTrasparente} alt="" />
                     <h3>Apoya un<br /> emprendimiento</h3>
                 </button></Link>
