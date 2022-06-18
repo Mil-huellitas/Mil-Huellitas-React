@@ -1,0 +1,966 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --dark-color: #191919;
+    --white-color: #ffffff;
+    --bluedark-color: #214E7E;
+    --blue-color: #2970ca;
+    --bluelight-color: #D5E3FF;
+    --green-color: #badcb9;
+    --greendark-color: #5d9844;
+    --greensuperdark-color: #467134;
+    --coral-color: #FAC0BD;
+    --blue-dark-color: #1B3C5A;
+    --blue-medium-color: #2970CA;
+    --blue-light: #D5E3FF;
+    --green-light-color: #C4EDB2;
+    --coral-color: #FAC0BD;
+    --dark-color: #191919;
+    --white-color: #FFFFFF;
+    --aleo-font: "Aleo", serif;
+    --poppins-font: "Poppins", sans-serif;
+    --Degrade-nav-menu-color: linear-gradient(180deg, rgba(7, 36, 62, 0.9) 32.33%, rgba(42, 95, 145, 0.9) 92.71%);
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--poppins-font);
+}
+
+header {
+    width: 100%;
+}
+
+.tittle {
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: var(--bluedark-color);
+
+
+
+}
+
+.button-dog {
+    background-color: var(--bluedark-color);
+    margin: 50px;
+    padding: 0;
+    border-radius: 10px;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.button-dog h3 {
+    padding-top: 10%;
+}
+
+.button-dog img {
+    margin-bottom: -5px;
+    animation: scaledown .2s ease;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scaledown .4s ease;
+}
+
+.button-dog img:hover {
+    z-index: 100;
+    animation: scale .2s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scale .4s ease;
+}
+
+@keyframes scaledown {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+}
+
+
+.button-dog:hover {
+    background-color: var(--bluelight-color);
+    box-shadow: 3px 3px 5px var(--dark-color);
+    /*Primer valor aplica al eje x, segundo valor, al eje y y el tercero es el difuminado*/
+
+}
+
+
+
+.button-cat {
+    font-family: var(--aleo-font);
+    font-size: 25px;
+    background-color: var(--bluedark-color);
+    margin: 50px;
+    border-radius: 10px;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.button-cat h3 {
+    padding-top: 10%;
+}
+
+.button-cat img {
+    margin-bottom: -15px;
+    /*para que quede la imágen al borde del boton */
+    margin-bottom: -5px;
+    animation: scaledown .4s ease;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scaledown .4s ease;
+}
+
+
+
+.button-cat img:hover {
+    z-index: 100;
+    animation: scale .2s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scale .2s ease;
+}
+
+@keyframes scaledown {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+}
+
+
+
+
+.button-cat:hover {
+    background-color: var(--blue-color);
+    box-shadow: 3px 3px 5px var(--dark-color);
+}
+
+.button-cat a {
+    color: var(--white-color);
+}
+
+.button-dog a {
+    color: var(--white-color);
+}
+
+
+.subt-section {
+    text-align: center;
+    font-size: 20px;
+    color: var(--greendark-color);
+    text-shadow: 1px 1px 1px var(--blue-color);
+}
+
+
+
+#nav-dog{
+    border-bottom: 10px solid var(--bluelight-color);
+    border-top: 10px solid var(--bluelight-color);
+}
+
+/*Estilos navbar-blog*/
+
+.line-blue {
+    width: 80%;
+    height: 15px;
+    background-color: var(--blue-light);
+
+}
+
+.line-blue1 {
+    width: 15%;
+    height: 15px;
+    background-color: var(--blue-light);
+
+}
+
+
+.nav-dogmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-bottom: 10px solid var(--bluelight-color);
+}
+
+.opciones {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--greendark-color);
+    color: var(--white-color);
+    height: 40px;
+    margin-bottom: 20px;
+    width: 230px;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.opciones i {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.opciones:hover {
+    font-size: 16px;
+    box-shadow: 2px 2px 5px var(--dark-color);
+}
+.learnkahoot {
+    border-left: 10px solid var(--bluelight-color);
+}
+
+
+.learn-kahoot {
+    padding: 0 20px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    color: var(--greendark-color);
+    text-shadow: 1px 1px 1px var(--dark-color);
+}
+
+.learnkahoot ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+    background-color: var(--bluelight-color);
+    padding: 20px;
+    box-shadow: 2px 2px 8px var(--dark-color);
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+.learnkahoot img {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 260px;
+}
+
+
+.button-pitbull img {
+    display: inline-block;
+    padding-left: 110px;
+
+}
+
+.button-pitbull span {
+    color: var(--white-color);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.button-pitbull {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: var(--blue-color);
+    transition: all .3s ease-out;
+    cursor: pointer;
+    box-shadow: 0 10px 10px var(--dark-color);
+    overflow: hidden;
+}
+
+
+
+
+.button-pitbull:hover {
+
+    cursor: pointer;
+    width: 360px;
+}
+
+
+
+
+
+.pitbull h2 {
+
+    background-color: var(--coral-color);
+    box-shadow: 2px 2px 6px var(--dark-color);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.pitbull-text {
+
+    margin: 20px;
+
+}
+
+.pitbull-text p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: 5px solid var(--blue-color);
+    width: 90%;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos Foundation*/
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bluedark-color);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+main {
+    margin-top: 100px;
+}
+
+
+/*Estilos header*/
+.logo-text-heder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-nav {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.text-logo-heder {
+    font-family: var(--aleo-font);
+    color: var(--white-color);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bar-btn {
+    font-size: 25px;
+    color: var(--white-color);
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: var(--Degrade-nav-menu-color);
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 3rem;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a {
+    color: var(--white-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active,
+.nav-menu li a:hover {
+    color: #09ff00;
+    transition: .3s;
+    text-shadow: 1px 1px 10px #09ff00;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked~.nav-menu {
+    height: 100vh;
+}
+
+#check:checked~.nav-menu li {
+    display: block;
+}
+
+
+/*responsive tablets*/
+@media screen and (min-width: 870px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+    #index-banner {
+        display: none;
+    }
+
+
+
+    /*responsive navbar*/
+    .logo-nav {
+        width: 35%;
+        margin-left: 20px;
+    }
+
+    .bar-btn {
+        margin-right: 20px;
+    }
+}
+
+/*responsive desktop*/
+
+@media screen and (min-width: 950px) {
+
+    /*responsive Pc navbar*/
+    nav {
+        height: 100px;
+        flex-direction: row;
+
+    }
+
+    .logo-nav {
+        margin-left: 50px;
+    }
+
+    .bar-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0;
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 1rem;
+        backdrop-filter: blur(0px);
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+
+    }
+
+    .nav-menu li a {
+        font-size: 1rem;
+    }
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+}
+
+.info img {
+    margin-right: 10px;
+    width: 24px;
+}
+
+.loyal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.loyal-text p {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    text-align: center;
+    border-top: 1px solid var(--white-color);
+    padding: 0 5px;
+}
+
+.social-media p {
+    text-align: center;
+}
+
+.social-media div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    margin: 0 5px
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .tittle {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 250px;
+        height: 140px;
+
+    }
+
+    .button-dog img {
+        margin-bottom: -1px;
+    }
+
+    .button-cat {
+        width: 250px;
+    }
+
+    .button-cat {
+        height: 135px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+
+        flex-direction: row-reverse;
+
+    }
+
+    .date-services p {
+        width: 420px;
+        margin-left: 70px;
+    }
+
+
+    .pitbull-text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+
+    }
+
+    #nav-dog {
+
+        display: flex;
+
+        justify-content: space-around;
+        border-bottom: 10px solid var(--bluelight-color);
+        border-top: 10px solid var(--bluelight-color);
+
+
+    }
+
+    .nav-dogmenu {
+        padding-top: 50px;
+        border-bottom: 0px solid var(--bluelight-color);
+
+
+
+    }
+
+    .nav-dogmenu h2 {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+
+    }
+
+    .learnkahoot {
+        text-align: center;
+    }
+
+    .learnkahoot img {
+        margin-bottom: -35px;
+    }
+
+    .learn-kahoot {
+        display: flex;
+        flex-direction: row;
+        width: 360px;
+        margin-right: 60px;
+
+
+
+    }
+
+    .learn-kahoot h1 {
+        text-align: center;
+    }
+
+    .button-pitbull {
+        margin-top: 20px;
+
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .tittle {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 380px;
+        height: 172px;
+
+    }
+
+    .button-dog img {
+        width: 180px;
+        margin-top: 0;
+
+
+
+    }
+
+    .button-cat {
+        width: 380px;
+        height: 172px;
+
+
+    }
+
+    .button-cat img {
+        width: 180px;
+
+
+
+    }
+
+
+
+    .subt-section {
+        font-size: 30px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+        flex-direction: row;
+    }
+
+
+
+
+    .date-services p {
+        width: 600px;
+        margin-left: 70px;
+    }
+
+    .pitbull-text {
+        margin: 50px;
+    }
+
+
+
+
+    #nav-dog {
+
+        display: flex;
+
+        justify-content: space-around;
+        border-bottom: 10px solid var(--bluelight-color);
+
+
+    }
+
+    .nav-dogmenu {
+        margin-top: 30px;
+        width: 800px;
+
+    }
+
+    .nav-dogmenu h2 {
+        width: 300px;
+        margin-left: 50px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+
+    }
+
+    .learnkahoot {
+
+        text-align: center;
+
+    }
+
+    .learnkahoot img {
+        margin-bottom: -35px;
+
+    }
+
+    .learn-kahoot {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .learnkahoot ul {
+        font-size: 20px;
+    }
+
+
+    .button-pitbull {
+        margin-top: 20px;
+
+    }
+
+
+    .info-pte {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info img {
+        width: 30px;
+    }
+
+    .social-media img {
+        width: 40px;
+        margin: 0 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+    .info-pte {
+        padding: 0 5%;
+    }
+
+
+    .tittle {
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 550px;
+        height: 230px;
+
+    }
+
+    .button-dog img {
+        width: 250px;
+
+
+
+    }
+
+    .button-cat {
+        width: 550px;
+        height: 230px;
+    }
+
+    .button-cat img {
+        width: 250px;
+
+
+
+    }
+
+    .subt-section {
+        font-size: 40px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+
+        flex-direction: row;
+
+    }
+
+    .date-services p {
+        width: 800px;
+        height: 100px;
+        margin-left: 70px;
+    }
+
+
+    .learn-kahoot {
+        display: flex;
+        flex-direction: row;
+        width: 800px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .learnkahoot ul {
+        font-size: 25px;
+
+    }
+
+
+
+    .pitbull h2 {
+        font-size: 30px;
+        font-weight: bolder;
+    }
+
+    .pitbull-text {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .pitbull-text {
+        font-size: 30px;
+
+
+    }
+
+    .learnkahoot h1 {
+        width: 00px;
+    }
+}
