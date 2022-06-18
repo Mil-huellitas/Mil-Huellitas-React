@@ -1,0 +1,11 @@
+.carousel {
+  width: 100%;
+}
+
+.carousel__img {
+  padding: 0;
+}
+
+.carousel__img img {
+  width: 100%;
+}
