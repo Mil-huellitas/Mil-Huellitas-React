@@ -18,7 +18,7 @@ function MainHome() {
                 </ul>
             </div>
 
-            <h1>¿como nos puedes ayudar?</h1>
+            <h1>¿Cómo nos puedes ayudar?</h1>
 
             <div className="index_buttons-pc">
                 <Link to="/donacion"><button id="index-btn-pc-D-material" className='btn-home'>
@@ -82,7 +82,7 @@ function MainHome() {
             </div>
 
 
-            <h1>Encuentranos Aquí</h1>
+            <h1>Encuéntranos Aquí</h1>
             <div className="index_container-maps">
 
                 <div className="_container-maps">
