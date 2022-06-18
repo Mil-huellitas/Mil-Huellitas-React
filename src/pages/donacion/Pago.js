@@ -1,7 +1,7 @@
 import Header from "./../../components/header/Header";
 import Footer from "./../../components/footer/Footer";
 import Form from "./../../components/donacion/Form_pago";
-import '../../components/donacion/form.css'
+import '../../css/donacion/form.css'
 
 function Pago(){
     return(

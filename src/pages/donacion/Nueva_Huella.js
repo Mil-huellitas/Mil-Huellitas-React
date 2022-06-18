@@ -3,9 +3,9 @@ import Footer from "./../../components/footer/Footer";
 import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
 import Foto from "../../assets/img/donacion/plan_5nuevahuella.jpg";
-import '../../components/donacion/Plan.css';
+import '../../css/donacion/Plan.css';
 import Huella from '../../assets/img/donacion/Union.png';
-import Boton from "../../components/boton/boton";
+import Boton from "../../components/donacion/boton/boton";
 
 function  NuevaHuella() {
     return (  

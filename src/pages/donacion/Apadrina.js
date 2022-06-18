@@ -4,7 +4,7 @@ import Info from "./../../components/donacion/Donacion_info";
 import Gallerya from "../../components/donacion/Gallerya";
 import Galleryp from "../../components/donacion/Galleryp";
 import { getAllApadrina, getAllPlanes } from "../../js/donacion/Infodonacion";
-import '../../components/donacion/Galery.css'
+import '../../css/donacion/Galery.css'
 
 function Apadrina(){
     const gallerya=getAllApadrina();

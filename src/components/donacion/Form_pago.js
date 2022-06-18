@@ -2,9 +2,9 @@ import React, {useState}from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
 import {Formulario,Label,ContenedorTerminos,ContenedorBotonCentrado,MensajeExito,MensajeError} from '../../elements/donacion/Formulariopago';
-import Boton from '../boton/boton';
+import Boton from './boton/boton'
 import ComponenteInput from './Input';
-import './Form_pago.css';
+import '../../css/Form_pago.css';
 import Huella from '../../assets/img/donacion/Union.png';
 
 const Form = () => {
