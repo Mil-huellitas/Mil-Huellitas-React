@@ -1,0 +1,1072 @@
+
+.galerry_doneco{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    row-gap: 50px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.Container_Doneco__nine{
+    grid-column: 1/3;
+}
+
+.background_footprints_one{
+    position:absolute;
+    left: 7px;
+    top: 35px;
+}
+
+.background_footprints_two{
+    position:absolute;
+    left:143px;
+    top: 85px;
+}
+
+.background_footprints_three{
+    position:absolute;
+    right:11px;
+    top: 45px;
+}
+
+.background_footprints_four{
+    position:absolute;
+    left:118px;
+    top: 135px;
+    z-index: 1;
+}
+
+.background_footprints_five{
+    position:absolute;
+    right: 90px;
+    top: 555px;
+    z-index: 1;
+}
+
+.background_footprints_six{
+    position:absolute;
+    left:94px;
+    top: 580px;
+    z-index: 1;
+}
+
+.background_footprints_seven{
+    position:absolute;
+    right:122px;
+    top: 175px;
+    z-index: 1;
+}
+
+.background_footprints_eight{
+    position:absolute;
+    left:13px;
+    top: 305px;
+    z-index: 1;
+}
+
+.background_footprints_nine, .background_footprints_ten, .background_footprints_eleven,.background_footprints_twelve{
+    visibility: hidden;
+    position: absolute;
+    overflow: hidden;
+    top: 1px;
+}
+
+.background_footprints_eleven,.background_footprints_twelve{
+    width:121px;
+}
+
+.Container_Doneco{
+    position: relative;
+}
+
+.Card_Doneco{
+    outline: 17px solid var(--blue-light);
+    width: 75.5px;
+    height: 75.5px;
+    border-radius: 50%;
+}
+
+.Card_Doneco__hover{
+    background-color:var(--blue-light);
+    outline: 17px solid var(--blue-light);
+    width: 75.5px;
+    border-radius: 50%;
+    height: 75.5px;
+    position: absolute;
+    top:0%;
+    opacity: 0;
+    z-index: 20;
+}
+
+.Card_Doneco__hover:hover{
+    background-color:var(--blue-light);
+    outline: 17px solid var(--blue-light);
+    width: 75.5px;
+    border-radius: 50%;
+    height: 75.5px;
+    position: absolute;
+    top:0%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.Card_Doneco__hover_text{
+    position: absolute;
+    left: 3.69%;
+    right: 3.28%;
+    top: 36.49%;
+    bottom: 36.36%;
+    font-family: var(--poppins-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:20px;
+    color: var(--blue-dark-color);
+}
+
+.Card_Doneco__hover_textp{
+    position: absolute;
+    left:-5px;
+    top: 36.49%;
+    bottom: 36.36%;
+    font-family: var(--poppins-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height:20px;
+    color: var(--blue-dark-color);
+}
+
+.Card_Doneco__hover_textl{
+    position: absolute;
+    left:5px;
+    top: 56.49%;
+    bottom: 36.36%;
+    font-family: var(--poppins-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height:20px;
+    color: var(--blue-dark-color);
+}
+
+.Card_Doneco__text{
+    width: 78.3px;
+}
+
+.Card_Doneco__text__donar{
+    width:73.43px;
+    position: absolute;
+    top: -19px;
+    left: 3px;
+}
+
+.Card_Doneco__text__value{
+    width:78.28px;
+    position: absolute;
+    top: 63px;
+}
+
+/*ESTILOS DONACIÓN ECONOMICA*/
+
+.text_mat_one{
+    top:65px;
+    left: 7px;
+    width:64px;
+}
+
+.text_mat_two{
+    top:65px;
+    left: 2px;
+    width:71px;
+}
+
+.text_mat_three{
+    top:63px;
+    left: 0px;
+    width:76px;
+}
+
+.text_mat_four{
+    top:52px;
+    left:-10px;
+    width:96px;
+}
+
+.text_mat_five{
+    top:61px;
+    left:-1px;
+}
+
+.text_mat_six{
+    top:66px;
+    left:2px;
+    width:67px;
+}
+
+.text_mat_eight{
+    top:62px;
+    left:0px;
+    width:76px;
+}
+
+.text_mat_nine{
+    top:36px;
+    left:-15px;
+    width:106px;
+}
+
+/*ESTILOS APADRINA*/
+.title_ap{
+font-weight: 600;
+font-size: 13px;
+text-align: center;
+color: var(--blue-medium-color);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.general_container{
+    position: relative;
+}
+
+.background_footprints_ap_nine, .background_footprints_ap_ten, .background_footprints_ap_eleven,.background_footprints_ap_twelve{
+    visibility: hidden;
+    position: absolute;
+    top: 1px;
+    width: 60px;
+}
+
+.galerry_ap{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    row-gap: 45px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.background_footprints_ap_one{
+    position: absolute;
+    left:6px;
+    top:50px;
+}
+
+.background_footprints_ap_two{
+    position: absolute;
+    left: 100px;
+    top:105px;
+}
+
+.background_footprints_ap_three{
+    position: absolute;
+    right: 8px;
+    top: 45px;
+}
+
+.background_footprints_ap_four{
+    position: absolute;
+    top: 160px;
+    left: 122px;
+    z-index: 1;
+}
+
+.background_footprints_ap_five{
+    position: absolute;
+    left:15px;
+    top:550px;
+    z-index: 1;
+}
+
+.background_footprints_ap_six{ 
+    position: absolute;
+    top:175px;
+    z-index: 1;
+    right: 125px;
+}
+
+.background_footprints_ap_seven{
+    position: absolute;
+    right:125px;
+    top:590px;
+    z-index: 1;          
+}
+
+.background_footprints_ap_eight{
+    position: absolute;
+    right:18px;
+    top:690px;
+    z-index: 1;
+}
+
+.background_footprints_ap_thirteen{
+    position: absolute;
+    right:8px;
+    top:560px;
+    z-index: 1; 
+}
+
+.background_footprints_ap_fourteen{
+    position: absolute;
+    left:15px;
+    top:310px;
+    z-index: 1; 
+}
+
+.Card_Doneco__text__ap{
+    width: 75px;
+    position: absolute;
+    top: -16px;
+    left: 0px;
+}
+
+.Card_Doneco__text__plan{
+    width:50px;
+    position: absolute;
+    top: -17px;
+    left: 11px;
+}
+
+.text_ap_one{
+    width:70px;
+    position: absolute;
+    top: 65px;
+    left: 4px;
+}
+
+.text_ap_two{
+    width:100px;
+    position: absolute;
+    top: 50px;
+    left: -9px;
+}
+
+.text_ap_three{
+    width:100px;
+    position: absolute;
+    top: 50px;
+    left: -12px;
+}
+
+.text_ap_four{
+    width:90px;
+    position: absolute;
+    top: 55px;
+    left: -7px;
+}
+
+.text_ap_five{
+    width:70px;
+    position: absolute;
+    top: 65px;
+    left: 4px;
+}
+.text_ap_six{
+    width:70px;
+    position: absolute;
+    top: 65px;
+    left: 4px;
+}
+.text_ap_seven{
+    width:80px;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+
+.text_ap_eight{
+    width:70px;
+    position: absolute;
+    top: 65px;
+    left: 4px;
+}
+.text_ap_nine{
+    width:78.28px;
+    position: absolute;
+    top: 63px;
+}
+.text_ap_ten{
+    width:100px;
+    position: absolute;
+    top: 50px;
+    left: -12px;
+}
+.text_ap_eleven{
+    width:100px;
+    position: absolute;
+    top: 53px;
+    left: -12px;
+}
+
+.text_ap_twelve{
+    width:100px;
+    position: absolute;
+    top: 50px;
+    left: -12px;
+}
+
+/*ESTILOS CACHORRO*/
+
+
+@media screen and (min-width:768px){
+    .galerry_doneco{
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 90px;
+        margin: 50px 0;
+    }
+
+    .Container_Doneco__nine{
+        grid-column: 3;
+    }
+
+    .background_footprints_one, .background_footprints_two, .background_footprints_three, .background_footprints_four,.background_footprints_six,.background_footprints_seven
+    {
+        visibility: hidden;
+    }
+
+    .background_footprints_five{
+        z-index: 1;
+        width: 60px;
+        top:26px;
+        right:17px;
+    }
+
+    .background_footprints_eight{
+        z-index: 1;
+        width:50px;
+        top:57px;
+        left:440px;
+    }
+
+    .background_footprints_nine{
+        visibility: visible;
+        z-index: 1;
+        top:60px;
+        left: 6px;
+    } 
+    .background_footprints_ten{
+        visibility: visible;
+        top:0px;
+        left: 186px;
+    }
+    .background_footprints_eleven{
+        visibility: visible;
+        width: 260px;
+        top:255px;
+        right: 228px;
+    }
+    
+    .background_footprints_twelve{
+        visibility: visible;
+        width: 60px;
+        top: 250px;
+        right: 13px;
+    }
+
+    .Card_Doneco{
+        outline: 24.6px solid var(--blue-light);
+        width: 120.1px;
+        height: 120.1px;
+        border-radius: 50%;
+    }
+
+    .Card_Doneco__hover{
+        outline: 24.6px solid var(--blue-light);
+        width: 120.1px;
+        height: 120.1px;
+    }
+
+    .Card_Doneco__hover:hover{
+        outline: 24.6px solid var(--blue-light);
+        width: 120.1px;
+        height: 120.1px;
+    }
+
+    .Card_Doneco__hover_text{
+        font-size: 32px;
+        line-height:20px;
+    }
+
+    .Card_Doneco__hover_textp{
+        font-size: 30px;
+        line-height:20px;
+    }
+
+    .Card_Doneco__hover_textl{
+        font-size: 16px;
+        line-height:20px;
+    }
+
+    .Container_Doneco__text{
+        width: 121.19px;
+    }
+
+    .Card_Doneco__text__donar{
+        width:110.45px;
+        top: -28px;
+        left: 7px;
+    }
+
+    .Card_Doneco__text__value{
+        width:113.45px;
+        top: 100px;
+        left: 4px;
+    }
+
+    /*ESTILOS DONACIÓN ECONOMICA*/
+
+.text_mat_one{
+    top:106px;
+    left: 14px;
+    width:90px;
+}
+
+.text_mat_two{
+    top:106px;
+    left: 10px;
+    width:100px;
+}
+
+.text_mat_three{
+    top:100px;
+    left: 0px;
+    width:120px;
+}
+
+.text_mat_four{
+    top:83px;
+    left:-14px;
+    width:150px;
+}
+
+.text_mat_five{
+    top:100px;
+    left:3px;
+}
+
+.text_mat_six{
+    top:105px;
+    left:11px;
+    width:100px;
+}
+
+.text_mat_eight{
+    top:100px;
+    left:3px;
+    width:115px;
+}
+
+.text_mat_nine{
+    top:59px;
+    left:-22px;
+    width:166px;
+}
+
+/*ESTILOS APADRINA*/
+.title_ap{
+    font-size: 17px;
+    }
+    
+    .background_footprints_ap_one,
+    .background_footprints_ap_two,
+    .background_footprints_ap_three,.background_footprints_ap_four ,   
+    .background_footprints_ap_six,    
+    .background_footprints_ap_seven,    
+    .background_footprints_ap_fourteen     
+    {
+    visibility: hidden;
+    }
+    
+    .galerry_ap{
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 90px;
+        margin: 30px 0;
+    }
+    
+    .background_footprints_ap_nine{
+        visibility: visible;
+        left: 12px;
+        top: 100px;
+        width: 70px;
+        z-index: 1;
+    }
+    .background_footprints_ap_ten{
+        visibility: visible;
+        left: 185px;
+        top:40px;
+        width: 130px;
+    } 
+    .background_footprints_ap_eleven{
+        visibility: visible;
+        right: 230px;
+        top:245px;
+        width: 95px;
+    }
+    .background_footprints_ap_twelve{
+        visibility: visible;
+        right: 8px;
+        width: 70px;
+        top: 290px;
+    }
+    .background_footprints_ap_five{
+        position: absolute;
+        left:700px;
+        top:500px;
+        z-index: 1;
+        width: 50px;
+    }
+    
+    .background_footprints_ap_eight{
+        right:265px;
+        top:65px;
+        width: 50px;
+        z-index: 1; 
+    }
+    
+    .background_footprints_ap_thirteen{
+        right:25px;
+        top:45px;
+        width: 50px;
+        z-index: 1; 
+    }
+    
+    .Card_Doneco__text__ap{
+        width: 125px;
+        position: absolute;
+        top: -24px;
+        left: -4px;
+    }
+    
+    .Card_Doneco__text__plan{
+        width:80px;
+        position: absolute;
+        top: -28px;
+        left: 16px;
+    }
+    
+    .text_ap_one ,.text_ap_five,
+    .text_ap_six,.text_ap_eight{
+        width:105px;
+        position: absolute;
+        top: 104px;
+        left: 6px;
+    }
+    
+    .text_ap_two,
+    .text_ap_three, .text_ap_ten,
+    .text_ap_eleven, .text_ap_twelve{
+        width:156px;
+        top: 82px;
+        left: -17px;
+    }
+    
+    .text_ap_two{
+        left: -15px;
+    }
+
+    .text_ap_four{
+        width:140px;
+        top: 90px;
+        left: -9px;
+    }
+    
+    .text_ap_seven{
+        width:130px;
+        top: 87px;
+        left: 0px;
+    }
+
+    .text_ap_nine{
+        width:127px;
+        top: 98px;
+        left: -3px;;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .background_footprints_five{
+        width: 60px;
+        top:54px;
+        right:27px;
+    }
+
+    .background_footprints_eight{
+        width:60px;
+        top:69px;
+        left:590px;
+    }
+
+    .background_footprints_nine{
+        visibility: visible;
+        z-index: 1;
+        top:90px;
+        left: 18px;
+        height: 600px;
+    } 
+    .background_footprints_ten{
+        visibility: visible;
+        height: 700px;
+        top: 5px;
+        left: 255px;
+    }
+    .background_footprints_eleven{
+        visibility: visible;
+        width: 350px;
+        top:305px;
+        right:307px;
+    }
+    
+    .background_footprints_twelve{
+        visibility: visible;
+        width: 70px;
+        top: 327px;
+        right:16px;
+    }
+
+    .Card_Doneco{
+        outline: 33.9px solid var(--blue-light);
+        width:165.2px;
+        height: 165.2px;
+    }
+
+    .Card_Doneco__hover{
+        outline: 33.9px solid var(--blue-light);
+        width:165.2px;
+        height: 165.2px;
+    }
+
+    .Card_Doneco__hover:hover{
+        outline: 33.9px solid var(--blue-light);
+        width:165.2px;
+        height: 165.2px;
+    }
+
+    .Card_Doneco__hover_text{
+        font-size: 40px;
+        line-height:36px;
+        text-align: center;
+    }
+
+    .Card_Doneco__hover_textp{
+        font-size: 40px;
+        line-height:20px;
+    }
+
+    .Card_Doneco__hover_textl{
+        font-size: 22px;
+        line-height:20px;
+    }
+
+    .Container_Doneco__text{
+        width: 121.19px;
+    }
+
+    .Card_Doneco__text__donar{
+        width:144.45px;
+        top: -37px;
+        left: 13px;
+    }
+
+    .Card_Doneco__text__value{
+        width:147.45px;
+        top: 140px;
+        left: 8px;
+    }
+
+        /*ESTILOS DONACIÓN ECONOMICA*/
+
+.text_mat_one{
+    top:146px;
+    left: 19px;
+    width:125px;
+}
+
+.text_mat_two{
+    top:146px;
+    left: 13px;
+    width:140px;
+}
+
+.text_mat_three{
+    top:137px;
+    left: 3px;
+    width:160px;
+}
+
+.text_mat_four{
+    top:115px;
+    left:-20px;
+    width:210px;
+    z-index: 1;
+}
+
+.text_mat_five{
+    top:140px;
+    left:8px;
+    width: 150px;
+}
+
+.text_mat_six{
+    top:144px;
+    left:15px;
+    width:140px;
+}
+
+.text_mat_eight{
+    top: 140px;
+    left:7px;
+    width:150px;
+}
+
+.text_mat_nine{
+    top:80px;
+    left:-29px;
+    width:225px;
+}
+
+/*ESTILOS APADRINA*/
+.title_ap{
+    font-size: 22px;
+    margin: 10px;
+    }
+    
+    .background_footprints_ap_nine{
+        left: 12px;
+        top: 100px;
+        width: 90px;
+        z-index: 1;
+    }
+    .background_footprints_ap_ten{
+        left: 265px;
+        top:60px;
+        width: 170px;
+    } 
+    .background_footprints_ap_eleven{
+        right:295px;
+        top:245px;
+        width: 130px;
+    }
+    .background_footprints_ap_twelve{
+        right: 8px;
+        width: 80px;
+        top: 330px;
+    }
+    .background_footprints_ap_five{
+        left:930px;
+        top:590px;
+        z-index: 1;
+        width: 70px;
+    }
+    
+    .background_footprints_ap_eight{
+        right:365px;
+        top:95px;
+        width: 70px;
+        z-index: 1; 
+    }
+    
+    .background_footprints_ap_thirteen{
+        right:25px;
+        top:65px;
+        width: 70px;
+        z-index: 1; 
+    }
+    
+    .Card_Doneco__text__ap{
+        width: 165px;
+        position: absolute;
+        top: -34px;
+        left: -1px;
+    }
+    
+    .Card_Doneco__text__plan{
+        width:110px;
+        position: absolute;
+        top: -38px;
+        left: 23px;
+    }
+    
+    .text_ap_one ,.text_ap_five,
+    .text_ap_six,.text_ap_eight{
+        width:135px;
+        position: absolute;
+        top: 145px;
+        left: 14px;
+    }
+    
+    .text_ap_two,
+    .text_ap_three, .text_ap_ten,
+    .text_ap_eleven, .text_ap_twelve{
+        width:215px;
+        top: 112px;
+        left: -24px;
+    }
+
+    .text_ap_two{
+        left: -18px;
+    }
+
+    .text_ap_four{
+        width:190px;
+        top: 125px;
+        left: -12px;
+    }
+    
+    .text_ap_seven{
+        width:170px;
+        top: 123px;
+        left: 2px;
+    }
+
+    .text_ap_nine{
+        width:167px;
+        top: 135px;
+        left: 0px;;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    .galerry_doneco{
+        width:90%;
+        margin: 50px auto;
+    }
+
+    .buttons button {
+        height: 35px;
+        font-size:20px;
+    }
+
+    .background_footprints_five{
+        width: 70px;
+        top:54px;
+        right:50px;
+    }
+
+    .background_footprints_eight{
+        width:70px;
+        top:69px;
+        left:670px;
+    }
+
+    .background_footprints_nine{
+        top:80px;
+        left:45px;
+    } 
+    .background_footprints_ten{
+        left: 285px;
+    }
+    .background_footprints_eleven{
+        width:360px;
+        right:377px;
+    }
+    
+    .background_footprints_twelve{
+        right:46px;
+    }
+
+    /*ESTILOS APADRINA*/
+    .title_ap{
+    font-size: 25px;
+    margin: 10px;
+    }
+
+    .galerry_ap{
+        width:75%;
+        margin: 50px auto;
+    }
+    
+    .background_footprints_ap_nine{
+        left: 55px;
+        width: 100px;
+    }
+    .background_footprints_ap_ten{
+        left:305px;
+        top:60px;
+        width: 185px;
+    } 
+    .background_footprints_ap_eleven{
+        right:365px;
+        top:245px;
+        width: 155px;
+    }
+    .background_footprints_ap_twelve{
+        right: 48px;
+        width: 95px;
+        top: 360px;
+    }
+    .background_footprints_ap_five{
+        left:1030px;
+        top:650px;
+        z-index: 1;
+        width: 90px;
+    }
+    
+    .background_footprints_ap_eight{
+        right:425px;
+        top:95px;
+        width:90px;
+        z-index: 1; 
+    }
+    
+    .background_footprints_ap_thirteen{
+        right:55px;
+        top:65px;
+        width: 90px;
+        z-index: 1; 
+    }
+    
+    .Card_Doneco__text__ap{
+        width: 165px;
+        position: absolute;
+        top: -34px;
+        left: -1px;
+    }
+    
+    .Card_Doneco__text__plan{
+        width:110px;
+        position: absolute;
+        top: -38px;
+        left: 23px;
+    }
+    
+    .text_ap_one ,.text_ap_five,
+    .text_ap_six,.text_ap_eight{
+        width:135px;
+        position: absolute;
+        top: 145px;
+        left: 14px;
+    }
+    
+    .text_ap_two,
+    .text_ap_three, .text_ap_ten,
+    .text_ap_eleven, .text_ap_twelve{
+        width:215px;
+        top: 112px;
+        left: -24px;
+    }
+
+    .text_ap_two{
+        left: -18px;
+    }
+
+    .text_ap_four{
+        width:190px;
+        top: 125px;
+        left: -12px;
+    }
+    
+    .text_ap_seven{
+        width:170px;
+        top: 123px;
+        left: 2px;
+    }
+
+    .text_ap_nine{
+        width:167px;
+        top: 135px;
+        left: 0px;;
+    }
+
+}
