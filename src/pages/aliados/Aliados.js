@@ -16,8 +16,8 @@ const Aliados = () => {
           <Carousel images={bannerImages.home} />
 
           <section className="titleAllies">
-            <h2>En la fundacion Mil Huellitas sabemos lo importante que es ayudar.</h2>
-            <h2>¡Todos los productos que verás son de pequeños grandes emprendimientos!</h2>
+            <h2 className="titletwo-Allies">En la fundacion Mil Huellitas sabemos lo importante que es ayudar.</h2>
+            <h2 className="titletwo-Allies">¡Todos los productos que verás son de pequeños grandes emprendimientos!</h2>
           </section>
 
           <ProductTypeList products={products} />
