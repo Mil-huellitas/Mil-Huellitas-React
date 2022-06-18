@@ -178,17 +178,6 @@ function Mascota(){
             </div> 
             </section>
 
-            <div className="container-dropdown">
-            <section id="information-responsabilities">
-            <div className="cat-bton">
-                <a href="noreferrer" onClick={toggleText}>
-                    <button className="bton-cat"> 
-                    Responsabilidades de un adoptante 
-                    <img src={BtnGato} alt="Imagen de botón de gato"></img>    
-            </button></a></div>
-
-        </section></div>
-
         </main>
 
         <Footer />
