@@ -63,9 +63,9 @@ function Pets(){
                         </div>
                         
                         <div className="adoption-galery__information">
-                            <p className="information pet__name">{pett.name} </p>
-                            <p className="information pet__age">Edad: {pett.age}</p>
-                            <p className="information pet__size">Tamaño: {pett.size}</p>
+                            <p className="information_pet_galery pet__name">{pett.name} </p>
+                            <p className="information_pet_galery pet__age">Edad: {pett.age}</p>
+                            <p className="information_pet_galery pet__size">Tamaño: {pett.size}</p>
                         </div>
                         
                     </div> 
