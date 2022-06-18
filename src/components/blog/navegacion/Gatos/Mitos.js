@@ -3,8 +3,8 @@ import React from 'react'
 import GatoNegro from '../../../../assets/blog/img/blog/242328-1600x1030-gato-negro-PhotoRoom 1-PhotoRoom.png'
 import PhotoRoom2 from '../../../../assets/blog/img/blog/istockphoto-1316683775-612x612-PhotoRoom(1) 1.png';
 import '../../../../css/blog/mitos-g.css'
-import Header from '../../../../components/header/header.txt';
-import Footer from '../../../../components/footer/footer.txt';
+import Footer from'../../../../components/footer/Footer'
+import Header from '../../../../components/header/Header'
 import Sections from '../Menu/Sections';
 import Menu from '../Menu/MenuGatos';
 
