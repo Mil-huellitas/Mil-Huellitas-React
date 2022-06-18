@@ -156,7 +156,7 @@ body{
     visibility: visible;
 }
 
-.adoption-galery__pet .adoption-galery__layer .link{
+.adoption-galery__pet .adoption-galery__layer .adoption_link{
     color: rgb(255, 255, 255);
     text-shadow: 2px 2px 2px black;
     text-align: center;
@@ -165,7 +165,7 @@ body{
     text-decoration: none;
 }
 
-.adoption-galery__pet:hover .link{
+.adoption-galery__pet:hover .adoption_link{
     animation: aparecer 800ms forwards;
 }
 
