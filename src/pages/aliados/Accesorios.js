@@ -12,7 +12,7 @@ const Accesorios = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-aliados">
         <Carousel images={bannerImages.affiliate} />
 
         <AffiliateWrapper title="¡Los mejores accesorios para tus mascotas!">
