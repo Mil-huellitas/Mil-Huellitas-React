@@ -6,6 +6,7 @@ import Foto from "../../assets/donacion/img/plan_3vidafeliz.jpg";
 import '../../css/donacion/Plan.css';
 import Huella from '../../assets/donacion/img/Union.png';
 import Boton from "../../components/donacion/boton/boton";
+import React from 'react';
 
 function  VidaFeliz() {
     return (  
