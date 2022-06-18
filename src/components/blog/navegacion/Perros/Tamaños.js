@@ -3,8 +3,8 @@ import MenuPerros from '../../../../components/blog/navegacion/Menu/MenuPerros';
 import Sections from '../../../../components/blog/navegacion/Menu/Sections';
 import Imagen1 from '../../../../assets/blog/img/blog/2 784400.png';
 import Torre from '../../../../assets/blog/img/blog/torre.png';
-import Header from '../../../../components/header/header.txt';
-import Footer from '../../../../components/footer/footer.txt';
+import Footer from'../../../../components/footer/Footer'
+import Header from '../../../../components/header/Header'
 
 function Tamaños() {
   return (
