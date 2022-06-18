@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Icono from '../../../assets/donacion/img/huella_boton.svg';
 import './boton.css';
+import React from 'react';
 
 function Boton(btn) {
     return(
