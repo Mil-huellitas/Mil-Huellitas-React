@@ -34,7 +34,7 @@ const Label = styled.label`
 
 const GrupoInput = styled.div`
 	position: relative;
-	z-index: 90;
+	z-index: 10;
 `;
 
 const Input = styled.input`
