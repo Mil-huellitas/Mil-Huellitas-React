@@ -16,7 +16,7 @@ function Footer(){
                 
                 <div className="information-piece footer_primary">
                     
-                    <div className="information">
+                    <div className="information-footer">
                         <img src={iconLocate} alt="Icono de ubicación"></img>
                         <div>
                             <p>Sede Chapinero</p>
@@ -24,7 +24,7 @@ function Footer(){
                         </div>
                     </div>
 
-                    <div className="information">
+                    <div className="information-footer">
                         <img src={iconPhone} alt="Icono de teléfono"></img>
                         <div>
                             <p>(+57) 312 456 7890</p>
@@ -33,14 +33,14 @@ function Footer(){
                 </div>
 
                 <div className="information-piece footer_secondary">
-                    <div className="information">
+                    <div className="information-footer">
                         <img src={iconGmail} alt="Icono de gmail"></img>
                         <div>
                             <p>milhuellitas@correo. com</p>
                         </div>
                     </div>
             
-                    <div className="information">
+                    <div className="information-footer">
                         <img src={iconClock} alt="Icono de reloj"></img>
                         <div>
                             <p>Todos los días</p> 
