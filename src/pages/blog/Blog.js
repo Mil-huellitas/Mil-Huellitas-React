@@ -8,8 +8,8 @@ import Patas from '../../assets/blog/img/blog/patas 1 1.png';
 import { Link } from 'react-router-dom';
 import '../../css/blog/estilosblog.css'
 
-import Header from '../../components/header/header.txt'
-import Footer from '../../components/footer/footer.txt'
+import Header from '../../components/header/Header'
+import Footer from '../../components/footer/Footer'
 
 function Blog() {
   return (
