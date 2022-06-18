@@ -8,6 +8,11 @@ import Comida from './pages/aliados/Comida'
 import Cuidados from './pages/aliados/Cuidados'
 import Juguetes from './pages/aliados/Juguetes'
 
+import Adopcion from './pages/adopcion/Adopcion';
+import Form from './pages/adopcion/Formulario';
+import FormAdoptantes from './pages/adopcion/FormAdoptantes';
+import Mascota from './pages/adopcion/Mascota';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
@@ -17,6 +22,14 @@ root.render(
       <Route path="/aliados/comida" element={<Comida />}></Route>
       <Route path="/aliados/cuidados" element={<Cuidados />}></Route>
       <Route path="/aliados/juguetes" element={<Juguetes />}></Route>
+
+      <Route path='/adopcion'  element={<Adopcion/>}></Route>
+      <Route path='/form-adoptantes' element={<FormAdoptantes/>}></Route>
+      <Route path='/formulario' element={<Form/>}></Route>
+      <Route path='/:id' element={<Mascota/>}></Route>
     </Routes>
     </BrowserRouter>
 );
+
+
+
