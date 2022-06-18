@@ -1,3 +1,4 @@
+import React from 'react';
 import Banner_primary from '../../../assets/adopcion/img/slide/banner1.png';
 import Banner_secondary from '../../../assets/adopcion/img/slide/banner2.svg';
 import Banner_tertiary from '../../../assets/adopcion/img/slide/banner3.png';
