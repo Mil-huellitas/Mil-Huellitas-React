@@ -28,7 +28,7 @@ function Info(){
             </section>
 
             <section class="buttons">
-                <button class="button_active"><Link to="/donacion">Donación Económica</Link></button>
+                <button><Link to="/donacion">Donación Económica</Link></button>
                 <button><Link to="/donacion_material">Donación Material</Link></button>
                 <button><Link to="/apadrina">Apadrinamiento</Link></button>
             </section>
