@@ -21,6 +21,9 @@
   font-family: var(--poppins-font);
 }
 
+.main-aliados{
+  margin: 6.25rem 0;
+}
 
 
 .button-primary {
