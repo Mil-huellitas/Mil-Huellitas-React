@@ -4,6 +4,8 @@ import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './index.css';
 
 import Home from './pages/home/Home';
+import FormularioLogin from './pages/login/FormularioLogin';
+
 
 import Aliados from './pages/aliados/Aliados'
 import Accesorios from './pages/aliados/Accesorios';
@@ -24,6 +26,8 @@ root.render(
 
       <Route path='/' element={<Home />}></Route>
       <Route path='/home' element={<Navigate to={"/"} />}></Route>
+      <Route path='/formulario' element={<FormularioLogin/>}></Route> 
+
         
       <Route path="/aliados" element={<Aliados />}></Route>
       <Route path="/aliados/accesorios" element={<Accesorios />}></Route>
