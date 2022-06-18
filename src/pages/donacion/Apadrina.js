@@ -5,6 +5,7 @@ import Gallerya from "../../components/donacion/Gallerya";
 import Galleryp from "../../components/donacion/Galleryp";
 import { getAllApadrina, getAllPlanes } from "../../js/donacion/Infodonacion";
 import '../../css/donacion/Galery.css'
+import React from 'react';
 
 function Apadrina(){
     const gallerya=getAllApadrina();
