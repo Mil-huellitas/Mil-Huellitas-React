@@ -1,0 +1,45 @@
+.card {
+  text-align: center;
+  border-radius: 8px;
+  width: 250px;
+  height: 300px;
+  box-shadow: 3px 5px 5px rgba(3, 32, 51, 0.8);
+}
+
+.contente {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  background: rgba(190, 190, 190, 0.603);
+  opacity: 0;
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contente h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contente a {
+  background-color: var(--blue-dark-color);
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 6px;
+  margin-bottom: 50px;
+}
+
+.contente a:hover {
+  background-color: var(--blue-medium-color);
+}
+
+.card:hover .contente {
+  opacity: 5;
+  background: rgba(51, 43, 43, 0.678);
+}
