@@ -123,7 +123,7 @@ function Mascota(){
                 <h2 class="subtitle">Paso 1</h2>
                 <img src={Huella} alt=""/>
 
-                <a href="/formulario" className="la_a">
+                <a href="/formulario-pets" className="la_a">
                 <div className='btn-container'>
                     <button className='btn_pago'> Llenar formulario </button>
                     <i class="fa-solid fa-paper-plane"></i>
