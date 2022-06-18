@@ -1,8 +1,7 @@
 
 
-import blog from '../src/pages/blog/Inicio';
-import Perros from '../src/components/blog/navegacion/Perros';
-import Gatos from '../src/components/blog/navegacion/Gatos';
+import Inicio from '../src/pages/blog/Inicio';
+
 
 import PerrosAdiest from '../src/components/blog/navegacion/Perros/Adiest';
 import PerrosCuidados from '../src/components/blog/navegacion/Perros/Cuidados';
@@ -91,13 +90,12 @@ root.render(
      
         <Route path='/aliado' element={<Aliado />}></Route>
 
-        <Route path='/perros' element={<Perros />}></Route>
+        <Route path='/perros' element={<Perros />}></Route
         <Route path='/perros/adiest' element={<PerrosAdiest />}></Route>
         <Route path='/perros/cuidados' element={<PerrosCuidados />}></Route>
         <Route path='/perros/mitos' element={<PerrosMitos />}></Route>
         <Route path='/perros/tamyrazas' element={<PerrosTamaños />}></Route>
 
-        <Route path='/gatos' element={<Gatos />}></Route>
         <Route path='/gatos/adiest' element={<GatosAdiest />}></Route>
         <Route path='/gatos/cuidados' element={<GatosCuidados />}></Route>
         <Route path='/gatos/mitos' element={<GatosMitos />}></Route>
