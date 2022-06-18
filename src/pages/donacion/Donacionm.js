@@ -4,6 +4,7 @@ import Info from "./../../components/donacion/Donacion_info";
 import Gallery from "../../components/donacion/Gallery";
 import { getAllMaterial } from "../../js/donacion/Infodonacion";
 import '../../css/donacion/Galery.css'
+import React from 'react';
 
 function Donacionm(){
     const gallery=getAllMaterial();
