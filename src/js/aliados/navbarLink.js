@@ -9,7 +9,7 @@ const navbarLink = [
   },
   {
     title: 'Donaciones',
-    to: '/donaciones',
+    to: '/donacion',
   },
   {
     title: 'Blog',
