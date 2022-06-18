@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Line_dashed from '../../../assets/adopcion/img/line.svg';
 import '../../../css/adopcion/Pets.css'
 import { useState } from "react";
+import React from 'react';
 
 
 function Pets(){
