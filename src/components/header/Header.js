@@ -2,6 +2,8 @@ import './Header.css'
 import logo from './img/logo.png'
 import LinkCustom from '../../components/aliados/linkCustom/LinkCustom'
 import navbarLink from '../../js/aliados/navbarLink'
+import React from 'react';
+
 
 function Header() {
   return (
