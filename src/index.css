@@ -21,9 +21,7 @@
   font-family: var(--poppins-font);
 }
 
-main {
-  margin: 6.25rem 0;
-}
+
 
 .button-primary {
   padding: 0.5rem 1rem;
