@@ -13,26 +13,26 @@
     position: relative;
 }
 
-.banner_Donacion h3 , .banner_Donacion h2 ,.banner_Donacion h1{
+.banner_Donacion_h3 , .banner_Donacion_h2 ,.banner_Donacion_h1{
     font-style: normal;
     font-weight: 500;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: absolute;
 }
 
-.banner_Donacion h3{
+.banner_Donacion_h3{
     font-size: 16px;
     top:30px;
     left:19px
 }
 
-.banner_Donacion h2{
+.banner_Donacion_h2{
     font-size: 20px;
     top: 48px;
     left: 19px;
 }
 
-.banner_Donacion h1{
+.banner_Donacion_h1{
     font-size: 34px;
     top: 65px;
 }
@@ -128,19 +128,19 @@
         min-height: 283px;
     }
 
-    .banner_Donacion h3{
+    .banner_Donacion_h3{
         font-size: 32px;
         top:80px;
         left:64.66px
     }
 
-    .banner_Donacion h2{
+    .banner_Donacion_h2{
         font-size: 40px;
         top: 110px;
         left: 68.73px;
     }
 
-    .banner_Donacion h1{
+    .banner_Donacion_h1{
         font-size: 71px;
         top: 139px;
         left: 30px;
@@ -201,19 +201,19 @@
         min-height: 390px;
     }
 
-    .banner_Donacion h3{
+    .banner_Donacion_h3{
         font-size: 43.3px;
         top:120px;
         left:94.66px
     }
 
-    .banner_Donacion h2{
+    .banner_Donacion_h2{
         font-size: 54.2px;
         top: 165px;
         left: 98.73px;
     }
 
-    .banner_Donacion h1{
+    .banner_Donacion_h1{
         font-size: 97.5px;
         top: 205px;
         left: 50px;
@@ -282,19 +282,19 @@
         min-height: 576px;
     }
 
-    .banner_Donacion h3{
+    .banner_Donacion_h3{
         font-size: 64px;
         top:185px;
         left:155px
     }
 
-    .banner_Donacion h2{
+    .banner_Donacion_h2{
         font-size: 80px;
         top: 245px;
         left: 160px;
     }
 
-    .banner_Donacion h1{
+    .banner_Donacion_h1{
         font-size: 144px;
         top: 305px;
         left: 80px;
