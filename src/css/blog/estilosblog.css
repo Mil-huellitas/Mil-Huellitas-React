@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root {
+    --dark-color: #191919;
+    --white-color: #ffffff;
+    --bluedark-color: #214E7E;
+    --blue-color: #2970ca;
+    --bluelight-color: #D5E3FF;
+    --green-color: #badcb9;
+    --greendark-color: #5d9844;
+    --greensuperdark-color: #467134;
+    --coral-color: #FAC0BD;
+    --blue-dark-color: #1B3C5A;
+    --blue-medium-color: #2970CA;
+    --blue-light: #D5E3FF;
+    --green-light-color: #C4EDB2;
+    --coral-color: #FAC0BD;
+    --dark-color: #191919;
+    --white-color: #FFFFFF;
+    --aleo-font: "Aleo", serif;
+    --poppins-font: "Poppins", sans-serif;
+    --Degrade-nav-menu-color: linear-gradient(180deg, rgba(7, 36, 62, 0.9) 32.33%, rgba(42, 95, 145, 0.9) 92.71%);
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--poppins-font);
+}
+
+header {
+    width: 100%;
+}
+
+
+
+/*Estilos Index blog*/
+
+
+
+.tittle {
+    margin-top: 40%;
+    text-align: center;
+    font-size: 20px;
+    color: var(--bluedark-color);
+
+
+
+}
+
+.button-dog {
+    background-color: var(--bluedark-color);
+    margin: 50px;
+    padding: 0;
+    border-radius: 10px;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.button-dog h3 {
+    padding-top: 10%;
+}
+
+.button-dog img {
+    margin-bottom: -5px;
+}
+
+
+.button-dog:hover {
+    background-color: var(--bluelight-color);
+    box-shadow: 3px 3px 5px var(--dark-color);
+    /*Primer valor aplica al eje x, segundo valor, al eje y y el tercero es el difuminado*/
+
+}
+
+.button-dog img {
+    margin-bottom: -5px;
+    animation: scaledown .2s ease;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scaledown .4s ease;
+}
+
+.button-dog img:hover {
+    z-index: 100;
+    animation: scale .2s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scale .4s ease;
+}
+
+@keyframes scaledown {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+}
+
+
+.button-dog:hover {
+    background-color: var(--bluelight-color);
+    box-shadow: 3px 3px 5px var(--dark-color);
+    /*Primer valor aplica al eje x, segundo valor, al eje y y el tercero es el difuminado*/
+
+}
+
+
+
+.button-cat {
+    background-color: var(--bluedark-color);
+    margin: 50px;
+    border-radius: 10px;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.button-cat h3 {
+    padding-top: 10%;
+}
+
+.button-cat img {
+    margin-bottom: -15px;
+    /*para que quede la imágen al borde del boton */
+    margin-bottom: -5px;
+    animation: scaledown .4s ease;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scaledown .4s ease;
+}
+
+
+
+.button-cat img:hover {
+    z-index: 100;
+    animation: scale .2s linear;
+    animation-fill-mode: forwards;
+    transform-origin: 50% -webkit-animation scale .2s ease;
+}
+
+@keyframes scaledown {
+    0% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    100% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+
+    }
+}
+
+
+.button-cat {
+    background-color: var(--bluedark-color);
+    margin: 50px;
+    border-radius: 10px;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.button-cat h3 {
+    padding-top: 10%;
+}
+
+.button-cat img {
+    margin-bottom: -15px;
+    /*para que quede la imágen al borde del boton */
+
+}
+
+.button-cat:hover {
+    background-color: var(--bluelight-color);
+    box-shadow: 3px 3px 5px var(--dark-color);
+
+
+}
+
+.button-cat a {
+    color: var(--white-color);
+}
+
+.button-dog a {
+    color: var(--white-color);
+}
+
+.subt-section {
+    text-align: center;
+    font-size: 20px;
+    color: var(--greendark-color);
+    text-shadow: 1px 1px 1px var(--blue-color);
+}
+
+.line-blue {
+    width: 100%;
+    height: 15px;
+    background-color: var(--blue-light);
+
+}
+
+#services {
+    background-image: url(../assets/img/blog/Union-copia.png);
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+
+.date-services {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-size: 15px;
+
+
+}
+
+.date-services p {
+    margin-top: 10px;
+    background-color: var(--bluelight-color);
+    padding: 20px;
+    box-shadow: 2px 2px 8px var(--dark-color);
+    border-radius: 20px;
+
+
+}
+
+
+
+.date-services img {
+    height: 150px;
+    width: 150px;
+
+}
+
+
+.shoes img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+/*responsive tablets*/
+@media screen and (min-width: 870px) {
+
+    nav {
+        flex-direction: row;
+    }
+
+    #index-banner {
+        display: none;
+    }
+
+
+
+}
+
+/*responsive desktop*/
+    
+
+.loyal-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.loyal-text p {
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5px;
+    text-align: center;
+    border-top: 1px solid var(--white-color);
+    padding: 0 5px;
+}
+
+.social-media p {
+    text-align: center;
+}
+
+.social-media div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media img {
+    margin: 0 5px
+}
+
+
+
+
+
+
+/*Responsive*/
+
+@media screen and (min-width: 768px) {
+
+    .tittle {
+        margin-top: 20%;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 250px;
+
+    }
+
+    .button-cat {
+        width: 250px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+
+        flex-direction: row-reverse;
+
+    }
+
+    .date-services p {
+        width: 420px;
+        margin-left: 70px;
+    }
+
+
+} 
+
+@media screen and (min-width: 1024px) {
+
+    .tittle {
+        margin-top: 20%;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 380px;
+
+    }
+
+    .button-dog img {
+        width: 200px;
+
+    }
+
+    .button-cat {
+        width: 380px;
+
+    }
+
+    .button-cat img {
+        width: 180px;
+
+    }
+
+
+
+    .subt-section {
+        font-size: 30px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+        flex-direction: row;
+    }
+
+
+
+
+    .date-services p {
+        width: 600px;
+        margin-left: 70px;
+    }
+
+
+
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .info-pte {
+        padding: 0 5%;
+    }
+
+
+    .tittle {
+        margin-top: 15%;
+    }
+
+
+    #sections {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button-dog {
+        margin-right: 5px;
+        width: 550px;
+        height: 230px;
+
+    }
+
+    .button-dog img {
+        width: 250px;
+
+
+
+    }
+
+    .button-cat {
+        width: 550px;
+        height: 230px;
+    }
+
+    .button-cat img {
+        width: 250px;
+
+
+
+    }
+
+    .subt-section {
+        font-size: 40px;
+    }
+
+    #services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-services {
+
+        flex-direction: row;
+
+    }
+
+    .date-services p {
+        width: 800px;
+        height: 100px;
+        margin-left: 70px;
+    }
+
+}
