@@ -11,7 +11,7 @@ const Comida = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-aliados">
         <Carousel images={bannerImages.food} />
         <AffiliateWrapper title="¡La mejor y más saludable comida para tu mascota!">
           <ProductList list={products.foods.data} />
