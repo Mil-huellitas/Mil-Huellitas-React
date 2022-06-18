@@ -72,6 +72,9 @@
     opacity: 1;
 }
 
+#adoption-kirara{
+    margin-top: 40px;
+}
 
 #history:checked ~ .info-mascota{
     display: none;
@@ -194,7 +197,7 @@
     display: none;
 }
 
-.slider-galery-pet .container{
+.slider-galery-pet .container_galery_pet{
     width: 100%;
     max-width: 800px;
     height: 100%;
@@ -542,7 +545,7 @@
         padding: 0;
     }
     
-    .container{
+    .container_galery_pet{
         min-width: 100%;
         min-height: 250px;
         justify-content: space-between;
@@ -702,7 +705,7 @@
         max-width: 85%;
     }
 
-    .slider-galery-pet .container{
+    .slider-galery-pet .container_galery_pet{
         width: 85%;
     }
 
