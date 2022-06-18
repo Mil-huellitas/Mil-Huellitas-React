@@ -1,0 +1,337 @@
+main{
+    display: grid;
+}
+.banner_Donacion{
+    background: linear-gradient(90deg, rgba(53, 166, 204, 0.27) 0%, rgba(53, 166, 204, 0.03) 100%), url(../../assets/donacion/img/img_banner_pc.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0;
+    color: var(--white-color);
+    padding: 10px 5px;
+    min-height: 122px;
+    width: 100%;
+    position: relative;
+}
+
+.banner_Donacion h3 , .banner_Donacion h2 ,.banner_Donacion h1{
+    font-style: normal;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.banner_Donacion h3{
+    font-size: 16px;
+    top:30px;
+    left:19px
+}
+
+.banner_Donacion h2{
+    font-size: 20px;
+    top: 48px;
+    left: 19px;
+}
+
+.banner_Donacion h1{
+    font-size: 34px;
+    top: 65px;
+}
+
+.title_information{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: justify;
+    color: var(--blue-medium-color);
+    margin: 10px auto;
+}
+
+.information{
+    width:90%;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.information img{
+    width: 100%;
+    max-width: 262.68px;
+    border-radius: 15px;   
+    margin: 5px auto 5px; 
+}
+
+.information__text{
+    width: 100%;
+    text-align: justify;
+    font-family: var(--opensans-font);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--dark-color);
+    display: grid;
+    place-items: center;
+}
+
+.information__text h4{
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    color: var(--blue-medium-color);
+    margin: 5px auto;
+}
+
+.data_text{
+    display: grid;
+    place-items: center;
+    margin: 0 auto 10px;
+}
+
+.buttons{
+    border: 2px dashed var(--blue-medium-color);
+    border-left: none;
+    border-right: none;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+    gap: 1em;
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.buttons button {
+    padding: 3px;
+    text-align: center;
+    width: 87px;
+    height: 38px;
+    font-size:10px;
+    font-weight:400;
+    font-family: var(--opensans-font);
+    background-color: var(--blue-medium-color);
+    border-radius: 10px;
+    border: none;
+}
+
+.buttons .button_active{
+    background-color: var(--blue-dark-color);
+}
+.buttons a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+
+@media screen and (min-width:768px){
+    .banner_Donacion{
+        min-height: 283px;
+    }
+
+    .banner_Donacion h3{
+        font-size: 32px;
+        top:80px;
+        left:64.66px
+    }
+
+    .banner_Donacion h2{
+        font-size: 40px;
+        top: 110px;
+        left: 68.73px;
+    }
+
+    .banner_Donacion h1{
+        font-size: 71px;
+        top: 139px;
+        left: 30px;
+    }
+
+    .title_information{
+        font-size: 21px;
+        margin: 20px auto 10px;
+    }
+
+    .information{
+        width:90%;
+        grid-template-areas:"img textgeneral"
+        "datatext datatext";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img_information{
+        grid-area: img;
+    }
+
+    .information img{
+        max-width: 312px;
+        border-radius: 10px;   
+        margin: 5px auto 5px; 
+    }
+
+    .information__text{
+        font-size: 14px;
+        grid-row: 1/3;
+        line-height : 19px;
+    }
+
+    .information__text h4{
+        font-size: 21px;
+        margin: 10px auto;
+    }
+
+    .general_text{
+        grid-area: textgeneral;
+    }
+
+    .data_text{
+        grid-area:datatext;
+        margin-bottom: 20px;
+    }
+
+    .buttons button {
+        width: 175px;
+        height: 31px;
+        font-size:14px;
+    }
+
+}
+
+@media screen and (min-width:1024px){
+    .banner_Donacion{
+        min-height: 390px;
+    }
+
+    .banner_Donacion h3{
+        font-size: 43.3px;
+        top:120px;
+        left:94.66px
+    }
+
+    .banner_Donacion h2{
+        font-size: 54.2px;
+        top: 165px;
+        left: 98.73px;
+    }
+
+    .banner_Donacion h1{
+        font-size: 97.5px;
+        top: 205px;
+        left: 50px;
+    }
+
+    .title_information{
+        font-size: 27.1px;
+        margin: 30px auto 20px;
+    }
+
+    .information{
+        width:90%;
+        grid-template-areas:"img textgeneral"
+        "img datatext";
+        column-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 20px;
+    }
+
+    .img_information{
+        grid-area: img;
+    }
+
+    .information img{
+        max-width:600px;
+        border-radius: 10px;   
+        margin: 5px auto; 
+    }
+
+    .information__text{
+        font-size: 16px;
+        grid-row: 1/3;
+        line-height : 21px;
+    }
+
+    .information__text h4{
+        font-size:18px;
+        margin: 10px;
+        place-items: start;
+    }
+
+    .general_text{
+        grid-area: textgeneral;
+    }
+
+    .data_text{
+        grid-area:datatext;
+        margin-bottom: 20px;
+        place-items: start;
+    }
+
+    .buttons {
+        width: 90%;
+    }
+
+    .buttons button {
+        width: 203px;
+        height: 31px;
+        font-size:16px;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+    .banner_Donacion{
+        min-height: 576px;
+    }
+
+    .banner_Donacion h3{
+        font-size: 64px;
+        top:185px;
+        left:155px
+    }
+
+    .banner_Donacion h2{
+        font-size: 80px;
+        top: 245px;
+        left: 160px;
+    }
+
+    .banner_Donacion h1{
+        font-size: 144px;
+        top: 305px;
+        left: 80px;
+    }
+
+    .title_information{
+        font-size: 35px;
+        margin: 40px auto 30px;
+    }
+
+    .information img{
+        max-width:618px;
+    }
+
+    .information__text{
+        font-size: 20px;
+        grid-row: 1/3;
+        line-height : 25px;
+    }
+
+    .information__text h4{
+        font-size:22px;
+        margin: 20px ;
+        place-items: start;
+    }
+    .general_text{
+        grid-area: textgeneral;
+    }
+
+    .data_text{
+        grid-area:datatext;
+        margin-bottom: 0px;
+    }
+
+    .buttons button {
+        width: 234px;
+        height: 35px;
+        font-size:20px;
+    }
+}
