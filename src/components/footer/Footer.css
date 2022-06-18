@@ -36,13 +36,13 @@ footer > .footer__social-media {
     border-right: 1px solid var(--white-color);
 }
 
-.footer__information .information{
+.footer__information .information-footer{
     margin: 2px 0;
     width: 100%;
     display: flex;
 }
 
-.footer__information .information img{
+.footer__information .information-footer img{
     margin-right: 10px;
     width: 24px;
 }
@@ -115,7 +115,7 @@ footer > .footer__social-media {
        height: 100%;
    }
 
-   .footer__information .information img{
+   .footer__information .information-footer img{
     width: 27px;
     }
 
@@ -155,7 +155,7 @@ footer > .footer__social-media {
         flex-direction: column;
     }
 
-    .footer__information .information img{
+    .footer__information .information-footer img{
         width: 30px;
     }
 
