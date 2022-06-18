@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import './index.css';
-import {  BrowserRouter,Route, Routes } from 'react-router-dom'
+
+import Home from './pages/home/Home';
+
 import Aliados from './pages/aliados/Aliados'
 import Accesorios from './pages/aliados/Accesorios';
 import Comida from './pages/aliados/Comida'
@@ -13,10 +16,15 @@ import Form from './pages/adopcion/Formulario';
 import FormAdoptantes from './pages/adopcion/FormAdoptantes';
 import Mascota from './pages/adopcion/Mascota';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
+
+      <Route path='/' element={<Home />}></Route>
+      <Route path='/home' element={<Navigate to={"/"} />}></Route>
+        
       <Route path="/aliados" element={<Aliados />}></Route>
       <Route path="/aliados/accesorios" element={<Accesorios />}></Route>
       <Route path="/aliados/comida" element={<Comida />}></Route>
@@ -30,6 +38,3 @@ root.render(
     </Routes>
     </BrowserRouter>
 );
-
-
-
