@@ -1,4 +1,5 @@
 //import Btn_gato from '../../../assets/adopcion/img/btongato.svg'
+import React from 'react';
 import '../../../css/adopcion/Buttoncat.css';
 import { Link } from 'react-router-dom';
 
