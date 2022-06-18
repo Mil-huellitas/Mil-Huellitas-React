@@ -48,7 +48,7 @@ root.render(
 
       <Route path='/adopcion'  element={<Adopcion/>}></Route>
       <Route path='/form-adoptantes' element={<FormAdoptantes/>}></Route>
-      <Route path='/formulario' element={<Form/>}></Route>
+      <Route path='/formulario-pets' element={<Form/>}></Route>
       <Route path='/:id' element={<Mascota/>}></Route>
 
       <Route path='/donacion' element={<Donacion/>}></Route>
