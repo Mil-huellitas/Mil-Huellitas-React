@@ -5,7 +5,7 @@ import React from 'react';
 
 function Info(){
     return (
-        <main>
+        <main className="main_d">
             <section class="banner_Donacion">
                 <h3>Tu puedes ser</h3>
                 <h2> parte de la</h2>
