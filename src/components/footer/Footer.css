@@ -50,6 +50,9 @@ footer > .footer__social-media {
 .footer__social-media strong{
     display: none;
 }
+.information-piece{
+margin-top:30px;
+}
 
 .footer__loyal-text{
     display: flex;
