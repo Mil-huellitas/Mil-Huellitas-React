@@ -11,7 +11,7 @@ const Aliados = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-aliados">
         <section className="fondo">
           <Carousel images={bannerImages.home} />
 
