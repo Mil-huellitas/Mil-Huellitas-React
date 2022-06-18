@@ -5,7 +5,7 @@ import './Mainhome.css'
 
 function MainHome() {
     return (
-        <main className="index-heder">
+        <mainn className="index-heder">
             <div className="index-banner">
                 <img src={indexBanner} alt="" />
             </div>
@@ -120,7 +120,7 @@ function MainHome() {
             </div>
 
 
-        </main>
+        </mainn>
 
     )
 }
