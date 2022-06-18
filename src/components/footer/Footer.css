@@ -51,7 +51,7 @@ footer > .footer__social-media {
     display: none;
 }
 .information-piece{
-margin-top:30px;
+margin-top:15px;
 }
 
 .footer__loyal-text{
@@ -108,6 +108,9 @@ margin-top:30px;
        flex-direction: row;
        justify-content: space-around;
    }
+    .information-piece{
+margin-top:30px;
+}
 
     .footer_primary{
     border-right: 1px solid var(--white-color);
