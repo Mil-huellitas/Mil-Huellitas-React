@@ -45,7 +45,6 @@ body{
   flex-direction: column;
 }
 
-
 .adoption{
     width: 100%;
     margin: 30px auto;
@@ -157,7 +156,8 @@ body{
 }
 
 .adoption-galery__pet .adoption-galery__layer .adoption_link{
-    color: rgb(255, 255, 255);
+    color: white;
+    font-weight: bold;
     text-shadow: 2px 2px 2px black;
     text-align: center;
     cursor: pointer;
