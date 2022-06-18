@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from '../../../../components/footer/footer.txt'
-import Header from '../../../../components/header/header.txt'
+import Footer from'../../../../components/footer/Footer'
+import Header from '../../../../components/header/Header'
 import MenuPerros from '../../../../components/blog/navegacion/Menu/MenuPerros'
 import Sections from '../../../../components/blog/navegacion/Menu/Sections'
 import DuoNegro from '../../../../assets/blog/img/blog/duo negro.png'
