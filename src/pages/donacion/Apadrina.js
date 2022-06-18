@@ -3,7 +3,7 @@ import Footer from "./../../components/footer/Footer";
 import Info from "./../../components/donacion/Donacion_info";
 import Gallerya from "../../components/donacion/Gallerya";
 import Galleryp from "../../components/donacion/Galleryp";
-import { getAllApadrina, getAllPlanes } from "../../components/donacion/Infodonacion";
+import { getAllApadrina, getAllPlanes } from "../../js/donacion/Infodonacion";
 import '../../components/donacion/Galery.css'
 
 function Apadrina(){

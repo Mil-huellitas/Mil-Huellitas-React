@@ -2,7 +2,7 @@ import Header from "./../../components/header/Header";
 import Footer from "./../../components/footer/Footer";
 import Info from "./../../components/donacion/Donacion_info";
 import Gallery from "../../components/donacion/Gallery";
-import { getAllMaterial } from "../../components/donacion/Infodonacion";
+import { getAllMaterial } from "../../js/donacion/Infodonacion";
 import '../../components/donacion/Galery.css'
 
 function Donacionm(){
