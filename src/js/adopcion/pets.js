@@ -14,6 +14,7 @@ import Hercules from '../../assets/adopcion/img/galery/hercules.svg';
 import Zeus from '../../assets/adopcion/img/galery/zeus.svg';
 import Iris from '../../assets/adopcion/img/galery/iris.svg';
 import Aurora from '../../assets/adopcion/img/galery/aurora.svg';
+import React from 'react';
 
 let pets=[
     {
