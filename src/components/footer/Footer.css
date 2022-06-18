@@ -93,7 +93,7 @@ footer > .footer__social-media {
     height: 50%;
 }
 
-.footer__information .primary, .footer__information .secondary{
+.footer_primary, .footer_secondary{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -106,7 +106,7 @@ footer > .footer__social-media {
        justify-content: space-around;
    }
 
-   .footer__information. primary{
+    .footer_primary{
     border-right: 1px solid var(--white-color);
    }
 
