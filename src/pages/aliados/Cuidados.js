@@ -11,7 +11,7 @@ const Cuidados = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className="main-aliados">
         <Carousel images={bannerImages.cuidado} />
         <AffiliateWrapper title="¡Los mejores accesorios para tus mascotas!">
           <ProductList list={products.health.data} />
