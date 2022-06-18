@@ -42,7 +42,7 @@ footer > .footer__social-media {
     display: flex;
 }
 
-.information img{
+.footer__information .information img{
     margin-right: 10px;
     width: 24px;
 }
@@ -115,7 +115,7 @@ footer > .footer__social-media {
        height: 100%;
    }
 
-   .information img{
+   .footer__information .information img{
     width: 27px;
     }
 
@@ -155,7 +155,7 @@ footer > .footer__social-media {
         flex-direction: column;
     }
 
-    .information img{
+    .footer__information .information img{
         width: 30px;
     }
 
