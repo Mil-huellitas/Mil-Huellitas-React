@@ -1,4 +1,4 @@
-import '../../css/Plan.css'
+import '../../css/donacion/Plan.css'
 
 const FotoPlan=({foto,desf})=>{
     return(

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../css/Galery.css'
+import '../../css/donacion/Galery.css'
 
 function Gallerya (props){
     return(

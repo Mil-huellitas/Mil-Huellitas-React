@@ -2,7 +2,7 @@ main{
     display: grid;
 }
 .banner_Donacion{
-    background: linear-gradient(90deg, rgba(53, 166, 204, 0.27) 0%, rgba(53, 166, 204, 0.03) 100%), url(./img/img_banner_pc.svg);
+    background: linear-gradient(90deg, rgba(53, 166, 204, 0.27) 0%, rgba(53, 166, 204, 0.03) 100%), url(../../assets/donacion/img/img_banner_pc.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:0;

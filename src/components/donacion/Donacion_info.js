@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import './Donacion_info.css';
-import Principal from'../../assets/donacion/principal.jpg';
+import '../../css/donacion/Donacion_info.css';
+import Principal from'../../assets/donacion/img/principal.jpg';
 
 function Info(){
     return (

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Icono from '../../assets/img/donacion/huella_boton.svg';
+import Icono from '../../../assets/donacion/img/huella_boton.svg';
 import './boton.css';
 
 function Boton(btn) {

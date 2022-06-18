@@ -4,8 +4,8 @@ import {faExclamationTriangle} from '@fortawesome/free-solid-svg-icons';
 import {Formulario,Label,ContenedorTerminos,ContenedorBotonCentrado,MensajeExito,MensajeError} from '../../elements/donacion/Formulariopago';
 import Boton from './boton/boton'
 import ComponenteInput from './Input';
-import '../../css/Form_pago.css';
-import Huella from '../../assets/img/donacion/Union.png';
+import '../../css/donacion/Form_pago.css';
+import Huella from '../../assets/donacion/img/Union.png';
 
 const Form = () => {
       const [nombre, cambiarNombre] = useState({campo: '', valido: null});

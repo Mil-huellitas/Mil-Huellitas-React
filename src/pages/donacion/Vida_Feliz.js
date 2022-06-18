@@ -2,9 +2,9 @@ import Header from "./../../components/header/Header";
 import Footer from "./../../components/footer/Footer";
 import FotoPlan from "../../components/donacion/Fotoplan";
 import InfoPlan from "../../components/donacion/InfoPlan";
-import Foto from "../../assets/img/donacion/plan_3vidafeliz.jpg";
+import Foto from "../../assets/donacion/img/plan_3vidafeliz.jpg";
 import '../../css/donacion/Plan.css';
-import Huella from '../../assets/img/donacion/Union.png';
+import Huella from '../../assets/donacion/img/Union.png';
 import Boton from "../../components/donacion/boton/boton";
 
 function  VidaFeliz() {
