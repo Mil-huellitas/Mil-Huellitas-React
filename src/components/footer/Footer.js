@@ -14,7 +14,7 @@ function Footer(){
         <footer>
             <div className="footer__information">
                 
-                <div className="information-piece primary">
+                <div className="information-piece footer_primary">
                     
                     <div className="information">
                         <img src={iconLocate} alt="Icono de ubicación"></img>
@@ -32,7 +32,7 @@ function Footer(){
                     </div>
                 </div>
 
-                <div className="information-piece secondary">
+                <div className="information-piece footer_secondary">
                     <div className="information">
                         <img src={iconGmail} alt="Icono de gmail"></img>
                         <div>
