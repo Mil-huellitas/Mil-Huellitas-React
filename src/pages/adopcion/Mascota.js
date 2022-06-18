@@ -74,27 +74,27 @@ function Mascota(){
                                 </ul>
                             </div>
 
-                        <div class="history-pet">
-                            <div class="folder-pet">
+                        <div className="history-pet">
+                            <div className="folder-pet">
                                 <p>{pet.history}</p>
                             </div>
                         </div></article> </section>
 
-                        <div class="slider-galery-pet">
+                        <div className="slider-galery-pet">
 
-                            <div class="container">
+                            <div className="container">
                                 <input type="radio" name="slider" id="item-1" checked/>
                                 <input type="radio" name="slider" id="item-2"/>
                                 <input type="radio" name="slider" id="item-3"/>
                     
-                                <div class="cards">
-                                    <label class="card" for="item-1" id="selector-1">
+                                <div className="cards_galery_pet">
+                                    <label className="card_galery_pet" for="item-1" id="selector-1">
                                         <img src={pet.photo1} alt="Galería de imagenes de la mascota"/>
                                     </label>
-                                    <label class="card" for="item-2" id="selector-2">
+                                    <label className="card_galery_pet" for="item-2" id="selector-2">
                                         <img src={pet.photo2} alt="Galería de imagenes de la mascota"/>
                                     </label>
-                                    <label class="card" for="item-3" id="selector-3">
+                                    <label className="card_galery_pet" for="item-3" id="selector-3">
                                         <img src={pet.photo3} alt="Galería de imagenes de la mascota"/>
                                     </label>
                     
