@@ -12,7 +12,7 @@ import GatosCuidados from '../src/components/blog/navegacion/Gatos/Cuidados';
 import GatosMitos from '../src/components/blog/navegacion/Gatos/Mitos';
 import GatosTamaños from '../src/components/blog/navegacion/Gatos/Tamaños';
 
-
+import Blog from './pages/blog/Blog'
 
 
 
@@ -86,6 +86,8 @@ root.render(
 
 
      
+
+        <Route path='/blog' element={<Blog />}></Route>
 
         <Route path='/perros/adiest' element={<PerrosAdiest />}></Route>
         <Route path='/perros/cuidados' element={<PerrosCuidados />}></Route>
